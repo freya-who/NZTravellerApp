@@ -14,13 +14,22 @@
 		3A06DC731823FD8D009AE70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC721823FD8D009AE70B /* main.m */; };
 		3A06DC771823FD8D009AE70B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC761823FD8D009AE70B /* AppDelegate.m */; };
 		3A06DC7A1823FD8D009AE70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DC781823FD8D009AE70B /* Main.storyboard */; };
-		3A06DC7D1823FD8D009AE70B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC7C1823FD8D009AE70B /* ViewController.m */; };
 		3A06DC7F1823FD8D009AE70B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DC7E1823FD8D009AE70B /* Images.xcassets */; };
 		3A06DC861823FD8D009AE70B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A06DC851823FD8D009AE70B /* XCTest.framework */; };
 		3A06DC871823FD8D009AE70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A06DC661823FD8D009AE70B /* Foundation.framework */; };
 		3A06DC881823FD8D009AE70B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A06DC6A1823FD8D009AE70B /* UIKit.framework */; };
 		3A06DC901823FD8D009AE70B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DC8E1823FD8D009AE70B /* InfoPlist.strings */; };
 		3A06DC921823FD8D009AE70B /* NZTravellerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */; };
+		3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */; };
+		3A06DCA01823FE15009AE70B /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */; };
+		3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DCA51823FE64009AE70B /* ScrollViewController.m */; };
+		3A06DCAE182401D7009AE70B /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA8182401D7009AE70B /* photo1.png */; };
+		3A06DCAF182401D7009AE70B /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA9182401D7009AE70B /* photo2.png */; };
+		3A06DCB0182401D7009AE70B /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAA182401D7009AE70B /* photo3.png */; };
+		3A06DCB1182401D7009AE70B /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAB182401D7009AE70B /* photo4.png */; };
+		3A06DCB2182401D7009AE70B /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAC182401D7009AE70B /* photo5.png */; };
+		3A06DCB3182401D7009AE70B /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAD182401D7009AE70B /* slow.png */; };
+		3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCB5182401DF009AE70B /* NewZealandMap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +54,25 @@
 		3A06DC751823FD8D009AE70B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A06DC761823FD8D009AE70B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A06DC791823FD8D009AE70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A06DC7B1823FD8D009AE70B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A06DC7C1823FD8D009AE70B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A06DC7E1823FD8D009AE70B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A06DC841823FD8D009AE70B /* NZTravellerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZTravellerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A06DC851823FD8D009AE70B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3A06DC8D1823FD8D009AE70B /* NZTravellerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZTravellerAppTests-Info.plist"; sourceTree = "<group>"; };
 		3A06DC8F1823FD8D009AE70B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZTravellerAppTests.m; sourceTree = "<group>"; };
+		3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomScrollViewController.h; path = ../CustomScrollViewController.h; sourceTree = "<group>"; };
+		3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomScrollViewController.m; path = ../CustomScrollViewController.m; sourceTree = "<group>"; };
+		3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
+		3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
+		3A06DCA41823FE64009AE70B /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		3A06DCA51823FE64009AE70B /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		3A06DCA8182401D7009AE70B /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		3A06DCA9182401D7009AE70B /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		3A06DCAA182401D7009AE70B /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		3A06DCAB182401D7009AE70B /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		3A06DCAC182401D7009AE70B /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		3A06DCAD182401D7009AE70B /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		3A06DCB5182401DF009AE70B /* NewZealandMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +102,8 @@
 		3A06DC5A1823FD8D009AE70B = {
 			isa = PBXGroup;
 			children = (
+				3A06DCB4182401DF009AE70B /* Images */,
+				3A06DCA7182401D7009AE70B /* ScrollViewsResources */,
 				3A06DC6C1823FD8D009AE70B /* NZTravellerApp */,
 				3A06DC8B1823FD8D009AE70B /* NZTravellerAppTests */,
 				3A06DC651823FD8D009AE70B /* Frameworks */,
@@ -112,13 +134,17 @@
 		3A06DC6C1823FD8D009AE70B /* NZTravellerApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */,
+				3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */,
 				3A06DC751823FD8D009AE70B /* AppDelegate.h */,
 				3A06DC761823FD8D009AE70B /* AppDelegate.m */,
 				3A06DC781823FD8D009AE70B /* Main.storyboard */,
-				3A06DC7B1823FD8D009AE70B /* ViewController.h */,
-				3A06DC7C1823FD8D009AE70B /* ViewController.m */,
 				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
 				3A06DC6D1823FD8D009AE70B /* Supporting Files */,
+				3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */,
+				3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */,
+				3A06DCA41823FE64009AE70B /* ScrollViewController.h */,
+				3A06DCA51823FE64009AE70B /* ScrollViewController.m */,
 			);
 			path = NZTravellerApp;
 			sourceTree = "<group>";
@@ -150,6 +176,27 @@
 				3A06DC8E1823FD8D009AE70B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A06DCA7182401D7009AE70B /* ScrollViewsResources */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DCA8182401D7009AE70B /* photo1.png */,
+				3A06DCA9182401D7009AE70B /* photo2.png */,
+				3A06DCAA182401D7009AE70B /* photo3.png */,
+				3A06DCAB182401D7009AE70B /* photo4.png */,
+				3A06DCAC182401D7009AE70B /* photo5.png */,
+				3A06DCAD182401D7009AE70B /* slow.png */,
+			);
+			path = ScrollViewsResources;
+			sourceTree = "<group>";
+		};
+		3A06DCB4182401DF009AE70B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DCB5182401DF009AE70B /* NewZealandMap.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +275,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A06DCB1182401D7009AE70B /* photo4.png in Resources */,
+				3A06DCAF182401D7009AE70B /* photo2.png in Resources */,
+				3A06DCB3182401D7009AE70B /* slow.png in Resources */,
+				3A06DCAE182401D7009AE70B /* photo1.png in Resources */,
 				3A06DC7F1823FD8D009AE70B /* Images.xcassets in Resources */,
+				3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */,
+				3A06DCB2182401D7009AE70B /* photo5.png in Resources */,
 				3A06DC711823FD8D009AE70B /* InfoPlist.strings in Resources */,
+				3A06DCB0182401D7009AE70B /* photo3.png in Resources */,
 				3A06DC7A1823FD8D009AE70B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A06DC7D1823FD8D009AE70B /* ViewController.m in Sources */,
+				3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */,
+				3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */,
 				3A06DC771823FD8D009AE70B /* AppDelegate.m in Sources */,
+				3A06DCA01823FE15009AE70B /* PeekPagedScrollViewController.m in Sources */,
 				3A06DC731823FD8D009AE70B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

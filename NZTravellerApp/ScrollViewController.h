@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScrollViewController.h
 //  NZTravellerApp
 //
 //  Created by Frederike Schmitz on 01.11.13.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ScrollViewContainer : UIView
+
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 
 @end
+
