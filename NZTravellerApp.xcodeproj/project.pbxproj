@@ -30,6 +30,7 @@
 		3A06DCB2182401D7009AE70B /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAC182401D7009AE70B /* photo5.png */; };
 		3A06DCB3182401D7009AE70B /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAD182401D7009AE70B /* slow.png */; };
 		3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCB5182401DF009AE70B /* NewZealandMap.png */; };
+		3A06DCB818240809009AE70B /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCB718240809009AE70B /* Star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		3A06DCAC182401D7009AE70B /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
 		3A06DCAD182401D7009AE70B /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 		3A06DCB5182401DF009AE70B /* NewZealandMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMap.png; sourceTree = "<group>"; };
+		3A06DCB718240809009AE70B /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		3A06DCB4182401DF009AE70B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3A06DCB718240809009AE70B /* Star.png */,
 				3A06DCB5182401DF009AE70B /* NewZealandMap.png */,
 			);
 			path = Images;
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A06DCB818240809009AE70B /* Star.png in Resources */,
 				3A06DCB1182401D7009AE70B /* photo4.png in Resources */,
 				3A06DCAF182401D7009AE70B /* photo2.png in Resources */,
 				3A06DCB3182401D7009AE70B /* slow.png in Resources */,
@@ -516,6 +520,7 @@
 				3A06DC971823FD8D009AE70B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A06DC981823FD8D009AE70B /* Build configuration list for PBXNativeTarget "NZTravellerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				3A06DC9A1823FD8D009AE70B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

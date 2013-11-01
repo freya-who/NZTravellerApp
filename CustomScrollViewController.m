@@ -115,9 +115,14 @@
     [super viewDidLoad];
     
     UIImage *image = [UIImage imageNamed:@"NewZealandMap.png"];
+    UIImage *starIm = [UIImage imageNamed:@"Star.png"];
     
     // Set up the container view to hold your custom view hierarchy
     CGSize containerSize = image.size;
+    
+    CGFloat x = image.size.width;
+    CGFloat y = image.size.height;
+    
     self.containerView = [[UIView alloc] initWithFrame:(CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=containerSize}];
     [self.scrollView addSubview:self.containerView];
     
@@ -125,15 +130,27 @@
     imageView.center = CGPointMake(image.size.width/2.0f, image.size.height/2.0f);
     [self.containerView addSubview:imageView];
     
-    buttonMtM = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [buttonMtM setTitle:@"Mt. Maunganui" forState:UIControlStateNormal];
-    buttonMtM.frame = CGRectMake(60,60,50,50);
+    
+    UILabel  *labelMtM = [[UILabel alloc] initWithFrame:CGRectMake(x*0.731,y*0.285,800,200)];
+    labelMtM.font=[labelMtM.font fontWithSize:100];
+    labelMtM.text = @"Mt. Maunganui";
+    [self.containerView addSubview:labelMtM];
+    
+    buttonMtM = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttonMtM setImage:starIm forState:UIControlStateNormal];
+    buttonMtM.frame = CGRectMake(x*0.711,y*0.288,170,170);
     [buttonMtM addTarget:self action:@selector(pressedMtM:) forControlEvents:UIControlEventTouchUpInside];
     [self.containerView addSubview:buttonMtM];
     
-    buttonKari = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [buttonKari setTitle:@"Karikari Estate" forState:UIControlStateNormal];
-    buttonKari.frame = CGRectMake(80,60,60,50);
+    
+    UILabel  *labelKari = [[UILabel alloc] initWithFrame:CGRectMake(x*0.71,y*0.23,800,200)];
+    labelKari.font=[labelMtM.font fontWithSize:100];
+    labelKari.text = @"Karikari Estate";
+    [self.containerView addSubview:labelKari];
+    
+    buttonKari = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttonKari setImage:starIm forState:UIControlStateNormal];
+    buttonKari.frame = CGRectMake(x*0.69,y*0.23,170,170);
     [buttonKari addTarget:self action:@selector(pressedKari:) forControlEvents:UIControlEventTouchUpInside];
     [self.containerView addSubview:buttonKari];
     
