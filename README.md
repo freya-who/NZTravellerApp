@@ -18,5 +18,5 @@ Screenshots:
 
 ![First View](screenshots/first.png "First View is a TableView") ![Map](screenshots/map.png "Scrollable Map with clickable Stars")
 
-![Information](screenshots/information.png "Clicking the Star leads to info on POI") ![Photos](screenshots/information.png "Photo Gallery")
+![Information](screenshots/information.png "Clicking the Star leads to info on POI") ![Photos](screenshots/gallery.png "Photo Gallery")
 
