@@ -20,3 +20,8 @@ Screenshots:
 
 ![Information](screenshots/information.png "Clicking the Star leads to info on POI") ![Photos](screenshots/gallery.png "Photo Gallery")
 
+
+Things to fix:
+- initial position of map (and also pictures in gallery) too low, even though "centerScrollViewContents" should automatically position image in middle.
+
+- rescale buttons during zoom, differently than zoom/rescale level of map, so that buttons are visible when map zoomed out, but are small enough when zoomed in.
