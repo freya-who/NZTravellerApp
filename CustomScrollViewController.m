@@ -110,11 +110,16 @@
     [self centerScrollViewContents];
 }
 
+CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
+{
+    return CGPointMake(p1.x + p2.x, p1.y + p2.y);
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImage *image = [UIImage imageNamed:@"NewZealandMap.png"];
+    UIImage *image = [UIImage imageNamed:@"NewZealandMapKMM.png"];
     UIImage *starIm = [UIImage imageNamed:@"Star.png"];
     
     // Set up the container view to hold your custom view hierarchy
@@ -122,6 +127,16 @@
     
     CGFloat x = image.size.width;
     CGFloat y = image.size.height;
+    
+    CGSize labelSize = CGSizeMake(x/3, y/60);
+    CGSize starSize = CGSizeMake(x/60, x/60);
+    
+    CGPoint pointMtM = CGPointMake(x*0.7, y*0.28);
+    CGPoint pointKari = CGPointMake(x*0.69, y*0.23);
+    
+    CGPoint offset = CGPointMake(x*0.02, -y*0.001);
+    
+    int fontsize = (int)x/80;
     
     self.containerView = [[UIView alloc] initWithFrame:(CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=containerSize}];
     [self.scrollView addSubview:self.containerView];
@@ -131,29 +146,33 @@
     [self.containerView addSubview:imageView];
     
     
-    UILabel  *labelMtM = [[UILabel alloc] initWithFrame:CGRectMake(x*0.731,y*0.285,800,200)];
-    labelMtM.font=[labelMtM.font fontWithSize:100];
+    //Mt Maunganui
+    UILabel  *labelMtM = [[UILabel alloc] initWithFrame:(CGRect){.origin = CGPointAdd(pointMtM, offset),.size = labelSize}];
+    labelMtM.font=[labelMtM.font fontWithSize:fontsize];
     labelMtM.text = @"Mt. Maunganui";
     [self.containerView addSubview:labelMtM];
     
     buttonMtM = [UIButton buttonWithType:UIButtonTypeCustom];
     [buttonMtM setImage:starIm forState:UIControlStateNormal];
-    buttonMtM.frame = CGRectMake(x*0.711,y*0.288,170,170);
+    buttonMtM.frame = (CGRect){.origin = pointMtM,.size = starSize};
     [buttonMtM addTarget:self action:@selector(pressedMtM:) forControlEvents:UIControlEventTouchUpInside];
     [self.containerView addSubview:buttonMtM];
     
     
-    UILabel  *labelKari = [[UILabel alloc] initWithFrame:CGRectMake(x*0.71,y*0.23,800,200)];
-    labelKari.font=[labelMtM.font fontWithSize:100];
+    //Karikari Estate
+    UILabel  *labelKari = [[UILabel alloc] initWithFrame:(CGRect){.origin = CGPointAdd(pointKari, offset),.size = labelSize}];
+    labelKari.font=[labelMtM.font fontWithSize:fontsize];
     labelKari.text = @"Karikari Estate";
     [self.containerView addSubview:labelKari];
     
     buttonKari = [UIButton buttonWithType:UIButtonTypeCustom];
     [buttonKari setImage:starIm forState:UIControlStateNormal];
-    buttonKari.frame = CGRectMake(x*0.69,y*0.23,170,170);
+    buttonKari.frame = (CGRect){.origin = pointKari,.size = starSize};
     [buttonKari addTarget:self action:@selector(pressedKari:) forControlEvents:UIControlEventTouchUpInside];
     [self.containerView addSubview:buttonKari];
     
+    
+    //TapRecognizer
     UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewDoubleTapped:)];
     doubleTapRecognizer.numberOfTapsRequired = 2;
     doubleTapRecognizer.numberOfTouchesRequired = 1;

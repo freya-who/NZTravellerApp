@@ -35,6 +35,25 @@
 		3A06DCBF18242904009AE70B /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCBB18242904009AE70B /* gallery.png */; };
 		3A06DCC018242904009AE70B /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCBC18242904009AE70B /* information.png */; };
 		3A06DCC118242904009AE70B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCBD18242904009AE70B /* map.png */; };
+		3A06DCCB182438A9009AE70B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC3182438A9009AE70B /* Icon-72.png */; };
+		3A06DCCC182438A9009AE70B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC4182438A9009AE70B /* Icon-72@2x.png */; };
+		3A06DCCD182438A9009AE70B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC5182438A9009AE70B /* Icon-Small-50.png */; };
+		3A06DCCE182438A9009AE70B /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC6182438A9009AE70B /* Icon-Small-50@2x.png */; };
+		3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC7182438A9009AE70B /* Icon-Small.png */; };
+		3A06DCD0182438A9009AE70B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC8182438A9009AE70B /* Icon-Small@2x.png */; };
+		3A06DCD1182438A9009AE70B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCC9182438A9009AE70B /* Icon.png */; };
+		3A06DCD2182438A9009AE70B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCCA182438A9009AE70B /* Icon@2x.png */; };
+		3A06DCD518243AA5009AE70B /* Icon-Med.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCD318243AA5009AE70B /* Icon-Med.png */; };
+		3A06DCD618243AA5009AE70B /* Icon-Med@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCD418243AA5009AE70B /* Icon-Med@2x.png */; };
+		3A06DCD918243B2F009AE70B /* Icon60pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCD818243B2F009AE70B /* Icon60pt.png */; };
+		3A06DCDB18243B6D009AE70B /* Icon60pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCDA18243B6D009AE70B /* Icon60pt@2x.png */; };
+		3A06DCDE18243C0E009AE70B /* Icon76pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCDC18243C0E009AE70B /* Icon76pt.png */; };
+		3A06DCDF18243C0E009AE70B /* Icon76pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCDD18243C0E009AE70B /* Icon76pt@2x.png */; };
+		3A06DCE118244195009AE70B /* NewZealandMapK.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE018244195009AE70B /* NewZealandMapK.png */; };
+		3A06DCE318244222009AE70B /* NewZealandMapM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE218244222009AE70B /* NewZealandMapM.png */; };
+		3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */; };
+		3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE618244360009AE70B /* NewZealandMapKMM.png */; };
+		3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +102,25 @@
 		3A06DCBB18242904009AE70B /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
 		3A06DCBC18242904009AE70B /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
 		3A06DCBD18242904009AE70B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		3A06DCC3182438A9009AE70B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3A06DCC4182438A9009AE70B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		3A06DCC5182438A9009AE70B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3A06DCC6182438A9009AE70B /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		3A06DCC7182438A9009AE70B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3A06DCC8182438A9009AE70B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3A06DCC9182438A9009AE70B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3A06DCCA182438A9009AE70B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3A06DCD318243AA5009AE70B /* Icon-Med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Med.png"; sourceTree = "<group>"; };
+		3A06DCD418243AA5009AE70B /* Icon-Med@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Med@2x.png"; sourceTree = "<group>"; };
+		3A06DCD818243B2F009AE70B /* Icon60pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon60pt.png; sourceTree = "<group>"; };
+		3A06DCDA18243B6D009AE70B /* Icon60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon60pt@2x.png"; sourceTree = "<group>"; };
+		3A06DCDC18243C0E009AE70B /* Icon76pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76pt.png; sourceTree = "<group>"; };
+		3A06DCDD18243C0E009AE70B /* Icon76pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon76pt@2x.png"; sourceTree = "<group>"; };
+		3A06DCE018244195009AE70B /* NewZealandMapK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapK.png; sourceTree = "<group>"; };
+		3A06DCE218244222009AE70B /* NewZealandMapM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapM.png; sourceTree = "<group>"; };
+		3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKM.png; sourceTree = "<group>"; };
+		3A06DCE618244360009AE70B /* NewZealandMapKMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKMM.png; sourceTree = "<group>"; };
+		3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealandMap.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +150,7 @@
 		3A06DC5A1823FD8D009AE70B = {
 			isa = PBXGroup;
 			children = (
+				3A06DCC2182438A9009AE70B /* icons */,
 				3A06DCB918242904009AE70B /* screenshots */,
 				3A06DCB4182401DF009AE70B /* Images */,
 				3A06DCA7182401D7009AE70B /* ScrollViewsResources */,
@@ -206,6 +245,11 @@
 			isa = PBXGroup;
 			children = (
 				3A06DCB718240809009AE70B /* Star.png */,
+				3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */,
+				3A06DCE018244195009AE70B /* NewZealandMapK.png */,
+				3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */,
+				3A06DCE218244222009AE70B /* NewZealandMapM.png */,
+				3A06DCE618244360009AE70B /* NewZealandMapKMM.png */,
 				3A06DCB5182401DF009AE70B /* NewZealandMap.png */,
 			);
 			path = Images;
@@ -220,6 +264,27 @@
 				3A06DCBD18242904009AE70B /* map.png */,
 			);
 			path = screenshots;
+			sourceTree = "<group>";
+		};
+		3A06DCC2182438A9009AE70B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DCDC18243C0E009AE70B /* Icon76pt.png */,
+				3A06DCDD18243C0E009AE70B /* Icon76pt@2x.png */,
+				3A06DCC3182438A9009AE70B /* Icon-72.png */,
+				3A06DCD318243AA5009AE70B /* Icon-Med.png */,
+				3A06DCD418243AA5009AE70B /* Icon-Med@2x.png */,
+				3A06DCC4182438A9009AE70B /* Icon-72@2x.png */,
+				3A06DCC5182438A9009AE70B /* Icon-Small-50.png */,
+				3A06DCC6182438A9009AE70B /* Icon-Small-50@2x.png */,
+				3A06DCC7182438A9009AE70B /* Icon-Small.png */,
+				3A06DCC8182438A9009AE70B /* Icon-Small@2x.png */,
+				3A06DCD818243B2F009AE70B /* Icon60pt.png */,
+				3A06DCDA18243B6D009AE70B /* Icon60pt@2x.png */,
+				3A06DCC9182438A9009AE70B /* Icon.png */,
+				3A06DCCA182438A9009AE70B /* Icon@2x.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,16 +366,35 @@
 				3A06DCBE18242904009AE70B /* first.png in Resources */,
 				3A06DCB818240809009AE70B /* Star.png in Resources */,
 				3A06DCB1182401D7009AE70B /* photo4.png in Resources */,
+				3A06DCCD182438A9009AE70B /* Icon-Small-50.png in Resources */,
 				3A06DCAF182401D7009AE70B /* photo2.png in Resources */,
+				3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */,
+				3A06DCDE18243C0E009AE70B /* Icon76pt.png in Resources */,
 				3A06DCBF18242904009AE70B /* gallery.png in Resources */,
+				3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */,
+				3A06DCD0182438A9009AE70B /* Icon-Small@2x.png in Resources */,
+				3A06DCCC182438A9009AE70B /* Icon-72@2x.png in Resources */,
+				3A06DCD1182438A9009AE70B /* Icon.png in Resources */,
+				3A06DCD2182438A9009AE70B /* Icon@2x.png in Resources */,
 				3A06DCB3182401D7009AE70B /* slow.png in Resources */,
+				3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */,
+				3A06DCDF18243C0E009AE70B /* Icon76pt@2x.png in Resources */,
+				3A06DCDB18243B6D009AE70B /* Icon60pt@2x.png in Resources */,
+				3A06DCE318244222009AE70B /* NewZealandMapM.png in Resources */,
+				3A06DCCE182438A9009AE70B /* Icon-Small-50@2x.png in Resources */,
 				3A06DCAE182401D7009AE70B /* photo1.png in Resources */,
+				3A06DCE118244195009AE70B /* NewZealandMapK.png in Resources */,
 				3A06DC7F1823FD8D009AE70B /* Images.xcassets in Resources */,
+				3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */,
 				3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */,
 				3A06DCC118242904009AE70B /* map.png in Resources */,
 				3A06DCB2182401D7009AE70B /* photo5.png in Resources */,
+				3A06DCD618243AA5009AE70B /* Icon-Med@2x.png in Resources */,
 				3A06DCC018242904009AE70B /* information.png in Resources */,
+				3A06DCD518243AA5009AE70B /* Icon-Med.png in Resources */,
 				3A06DC711823FD8D009AE70B /* InfoPlist.strings in Resources */,
+				3A06DCD918243B2F009AE70B /* Icon60pt.png in Resources */,
+				3A06DCCB182438A9009AE70B /* Icon-72.png in Resources */,
 				3A06DCB0182401D7009AE70B /* photo3.png in Resources */,
 				3A06DC7A1823FD8D009AE70B /* Main.storyboard in Resources */,
 			);
