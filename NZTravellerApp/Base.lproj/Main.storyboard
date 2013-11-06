@@ -124,8 +124,7 @@
                     <navigationItem key="navigationItem" id="51x-1S-Yvg"/>
                     <connections>
                         <outlet property="scrollView" destination="Y9p-o3-0u1" id="ild-8Y-y0C"/>
-                        <segue destination="Olz-6v-cIY" kind="push" identifier="MtM" id="4SU-i7-dDV"/>
-                        <segue destination="RnN-iz-kEQ" kind="push" identifier="Kari" id="hYR-xT-595"/>
+                        <segue destination="j84-Ho-hmg" kind="push" identifier="detailSegue" id="3C7-7R-Mi7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrf-2R-76v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,92 +150,6 @@
             </objects>
             <point key="canvasLocation" x="136" y="80"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Gv0-tE-4od">
-            <objects>
-                <viewController id="Olz-6v-cIY" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Z9O-gU-y6W"/>
-                        <viewControllerLayoutGuide type="bottom" id="D72-by-mgc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8zK-u4-WSi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mt. Maunganui" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSG-sD-JcT">
-                                <rect key="frame" x="86" y="229" width="148" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WJ-pI-87u">
-                                <rect key="frame" x="137" y="405" width="49" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Photos">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="knm-mF-kbW" kind="push" id="dGw-TL-PRF"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text with information on Mt Maunganui" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="189" translatesAutoresizingMaskIntoConstraints="NO" id="TFm-4t-dKk">
-                                <rect key="frame" x="66" y="258" width="189" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="bDU-95-OpO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sC6-PY-8Mc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1604" y="-534"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Gvv-7x-CXl">
-            <objects>
-                <viewController id="RnN-iz-kEQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D2j-Y0-ocP"/>
-                        <viewControllerLayoutGuide type="bottom" id="toK-KS-OKv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uUA-IT-82n">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karikari Estate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pp3-xI-1DJ">
-                                <rect key="frame" x="105" y="229" width="111" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O6-VN-2Y7">
-                                <rect key="frame" x="145" y="404" width="49" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Photos">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BKq-NF-TTb" kind="push" id="8r5-vQ-ZsU"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text with information on KariKari Estate" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="189" translatesAutoresizingMaskIntoConstraints="NO" id="FlS-UR-Ojf">
-                                <rect key="frame" x="75" y="258" width="189" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="weK-ln-8La"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Xa-7X-Wao" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1604" y="75"/>
-        </scene>
         <!--Peek Paged Scroll View Controller-->
         <scene sceneID="nsU-lb-Wbo">
             <objects>
@@ -246,7 +159,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Omo-xX-hLF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I6h-ch-LGT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="H7C-dQ-9tn">
@@ -283,6 +196,37 @@
             </objects>
             <point key="canvasLocation" x="2067" y="-534"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="7hW-Ws-fWf">
+            <objects>
+                <viewController id="j84-Ho-hmg" customClass="NZDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pdh-kV-gKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sz9-gA-KYv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SQc-bF-pFA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail View Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1c-Rh-K43">
+                                <rect key="frame" x="85" y="234" width="151" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UsX-n4-Oy0"/>
+                    <connections>
+                        <outlet property="detailDescriptionLabel" destination="Q1c-Rh-K43" id="KGz-di-0mc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jvg-al-jTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1567" y="75"/>
+        </scene>
         <!--Peek Paged Scroll View Controller-->
         <scene sceneID="nFt-dE-IAE">
             <objects>
@@ -292,7 +236,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3yU-Xo-GOL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tih-KP-yAX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="pjH-UY-k0b">

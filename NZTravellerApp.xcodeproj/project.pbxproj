@@ -59,6 +59,7 @@
 		3A55BFC6182AC0C9007D0B40 /* NZTravellerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFC5182AC0C9007D0B40 /* NZTravellerDetails.m */; };
 		3A55BFC9182AC0CA007D0B40 /* NZTravellerPOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */; };
 		3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C015182AC97A007D0B40 /* FirstTableViewController.m */; };
+		3AAE216B182AF00F007C6AB8 /* NZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,8 @@
 		3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZTravellerPOI.m; sourceTree = "<group>"; };
 		3A55C014182AC97A007D0B40 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		3A55C015182AC97A007D0B40 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		3AAE2169182AF00F007C6AB8 /* NZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZDetailViewController.h; sourceTree = "<group>"; };
+		3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 				3A55BFC7182AC0CA007D0B40 /* NZTravellerPOI.h */,
 				3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */,
 				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
+				3AAE2169182AF00F007C6AB8 /* NZDetailViewController.h */,
+				3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */,
 			);
 			path = NZTravellerApp;
 			sourceTree = "<group>";
@@ -446,6 +451,7 @@
 				3A55BFC6182AC0C9007D0B40 /* NZTravellerDetails.m in Sources */,
 				3A55BFBD182AB714007D0B40 /* NZTravellerApp.xcdatamodeld in Sources */,
 				3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */,
+				3AAE216B182AF00F007C6AB8 /* NZDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
