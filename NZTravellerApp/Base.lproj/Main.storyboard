@@ -52,7 +52,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="SaO-wo-4GX" kind="push" id="W7a-MD-JzB"/>
+                                            <segue destination="SaO-wo-4GX" kind="push" identifier="mapPressed" id="W7a-MD-JzB"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>

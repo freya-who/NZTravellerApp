@@ -89,8 +89,8 @@
 		3A06DC8D1823FD8D009AE70B /* NZTravellerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZTravellerAppTests-Info.plist"; sourceTree = "<group>"; };
 		3A06DC8F1823FD8D009AE70B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZTravellerAppTests.m; sourceTree = "<group>"; };
-		3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomScrollViewController.h; path = ../CustomScrollViewController.h; sourceTree = "<group>"; };
-		3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomScrollViewController.m; path = ../CustomScrollViewController.m; sourceTree = "<group>"; };
+		3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
+		3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 		3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
 		3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
 		3A06DCA41823FE64009AE70B /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };

@@ -58,13 +58,11 @@
         NSLog(@"Description: %@", details.descrText);
     }
     
-    /*
+    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     CustomScrollViewController *controller = (CustomScrollViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
-     */
-    
     
     
     // Override point for customization after application launch.
