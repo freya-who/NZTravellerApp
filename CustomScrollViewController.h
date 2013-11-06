@@ -15,6 +15,9 @@
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
 
+@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext; //DB
+@property (nonatomic, strong) NSArray *nzTravellerPOI;
+
 -(IBAction)pressedMtM:(id)sender;
 -(IBAction)pressedKari:(id)sender;
 

@@ -7,6 +7,8 @@
 //
 
 #import "CustomScrollViewController.h"
+#import "NZTravellerPOI.h" //DB
+//#import "NZTravellerDetails.h"
 
 @interface CustomScrollViewController ()
 
@@ -26,6 +28,8 @@
 @synthesize scrollView = _scrollView;
 @synthesize containerView = _containerView;
 @synthesize buttonMtM, buttonKari;
+@synthesize managedObjectContext; //DB
+@synthesize nzTravellerPOI; //DB
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -118,6 +122,14 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription
+                                   entityForName:@"NZTravellerPOI" inManagedObjectContext:managedObjectContext];
+    [fetchRequest setEntity:entity];
+    NSError *error;
+    self.nzTravellerPOI = [managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    self.title = @"POI New Zealand";
     
     UIImage *image = [UIImage imageNamed:@"NewZealandMapKMM.png"];
     UIImage *starIm = [UIImage imageNamed:@"Star.png"];

@@ -54,6 +54,11 @@
 		3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */; };
 		3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE618244360009AE70B /* NewZealandMapKMM.png */; };
 		3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */; };
+		3A55BFBA182AB4C5007D0B40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55BFB9182AB4C5007D0B40 /* CoreData.framework */; };
+		3A55BFBD182AB714007D0B40 /* NZTravellerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */; };
+		3A55BFC6182AC0C9007D0B40 /* NZTravellerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFC5182AC0C9007D0B40 /* NZTravellerDetails.m */; };
+		3A55BFC9182AC0CA007D0B40 /* NZTravellerPOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */; };
+		3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C015182AC97A007D0B40 /* FirstTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +126,14 @@
 		3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKM.png; sourceTree = "<group>"; };
 		3A06DCE618244360009AE70B /* NewZealandMapKMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKMM.png; sourceTree = "<group>"; };
 		3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealandMap.pdf; sourceTree = "<group>"; };
+		3A55BFB9182AB4C5007D0B40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A55BFBC182AB714007D0B40 /* NZTravellerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NZTravellerApp.xcdatamodel; sourceTree = "<group>"; };
+		3A55BFC4182AC0C9007D0B40 /* NZTravellerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZTravellerDetails.h; sourceTree = "<group>"; };
+		3A55BFC5182AC0C9007D0B40 /* NZTravellerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZTravellerDetails.m; sourceTree = "<group>"; };
+		3A55BFC7182AC0CA007D0B40 /* NZTravellerPOI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZTravellerPOI.h; sourceTree = "<group>"; };
+		3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZTravellerPOI.m; sourceTree = "<group>"; };
+		3A55C014182AC97A007D0B40 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		3A55C015182AC97A007D0B40 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A55BFBA182AB4C5007D0B40 /* CoreData.framework in Frameworks */,
 				3A06DC691823FD8D009AE70B /* CoreGraphics.framework in Frameworks */,
 				3A06DC6B1823FD8D009AE70B /* UIKit.framework in Frameworks */,
 				3A06DC671823FD8D009AE70B /* Foundation.framework in Frameworks */,
@@ -173,6 +187,7 @@
 		3A06DC651823FD8D009AE70B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A55BFB9182AB4C5007D0B40 /* CoreData.framework */,
 				3A06DC661823FD8D009AE70B /* Foundation.framework */,
 				3A06DC681823FD8D009AE70B /* CoreGraphics.framework */,
 				3A06DC6A1823FD8D009AE70B /* UIKit.framework */,
@@ -189,12 +204,19 @@
 				3A06DC751823FD8D009AE70B /* AppDelegate.h */,
 				3A06DC761823FD8D009AE70B /* AppDelegate.m */,
 				3A06DC781823FD8D009AE70B /* Main.storyboard */,
+				3A55C014182AC97A007D0B40 /* FirstTableViewController.h */,
+				3A55C015182AC97A007D0B40 /* FirstTableViewController.m */,
 				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
 				3A06DC6D1823FD8D009AE70B /* Supporting Files */,
 				3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */,
 				3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */,
 				3A06DCA41823FE64009AE70B /* ScrollViewController.h */,
 				3A06DCA51823FE64009AE70B /* ScrollViewController.m */,
+				3A55BFC4182AC0C9007D0B40 /* NZTravellerDetails.h */,
+				3A55BFC5182AC0C9007D0B40 /* NZTravellerDetails.m */,
+				3A55BFC7182AC0CA007D0B40 /* NZTravellerPOI.h */,
+				3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */,
+				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
 			);
 			path = NZTravellerApp;
 			sourceTree = "<group>";
@@ -419,7 +441,11 @@
 				3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */,
 				3A06DC771823FD8D009AE70B /* AppDelegate.m in Sources */,
 				3A06DCA01823FE15009AE70B /* PeekPagedScrollViewController.m in Sources */,
+				3A55BFC9182AC0CA007D0B40 /* NZTravellerPOI.m in Sources */,
 				3A06DC731823FD8D009AE70B /* main.m in Sources */,
+				3A55BFC6182AC0C9007D0B40 /* NZTravellerDetails.m in Sources */,
+				3A55BFBD182AB714007D0B40 /* NZTravellerApp.xcdatamodeld in Sources */,
+				3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +666,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A55BFBC182AB714007D0B40 /* NZTravellerApp.xcdatamodel */,
+			);
+			currentVersion = 3A55BFBC182AB714007D0B40 /* NZTravellerApp.xcdatamodel */;
+			path = NZTravellerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A06DC5B1823FD8D009AE70B /* Project object */;
 }

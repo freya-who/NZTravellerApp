@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="NZTravellerDetails" representedClassName="NZTravellerDetails" syncable="YES">
+        <attribute name="descrText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="info" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="NZTravellerPOI" inverseName="details" inverseEntity="NZTravellerPOI" syncable="YES"/>
+    </entity>
+    <entity name="NZTravellerPOI" representedClassName="NZTravellerPOI" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xLoc" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="xOff" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yLoc" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yOff" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="details" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="NZTravellerDetails" inverseName="info" inverseEntity="NZTravellerDetails" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NZTravellerPOI" positionX="160" positionY="201" width="128" height="133"/>
+        <element name="NZTravellerDetails" positionX="358" positionY="198" width="128" height="103"/>
+    </elements>
+</model>
