@@ -15,9 +15,6 @@
 
 @property (nonatomic, strong) UIView *containerView;
 
-//@property (nonatomic, strong) UIButton *buttonMtM;
-//@property (nonatomic, strong) UIButton *buttonKari;
-
 - (void)centerScrollViewContents;
 - (void)scrollViewDoubleTapped:(UITapGestureRecognizer*)recognizer;
 - (void)scrollViewTwoFingerTapped:(UITapGestureRecognizer*)recognizer;
@@ -28,7 +25,6 @@
 
 @synthesize scrollView = _scrollView;
 @synthesize containerView = _containerView;
-//@synthesize buttonMtM, buttonKari;
 @synthesize managedObjectContext; //DB
 @synthesize nzTravellerPOI; //DB
 @synthesize nzPOI;
@@ -229,6 +225,11 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)setManagedObjectContext:(NSManagedObjectContext *)context
+{
+    self.managedObjectContext = context;
 }
 
 

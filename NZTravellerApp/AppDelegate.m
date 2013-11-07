@@ -10,6 +10,7 @@
 #import "NZTravellerDetails.h"
 #import "NZTravellerPOI.h"
 #import "CustomScrollViewController.h"
+#import "FirstTableViewController.h"
 
 @implementation AppDelegate
 
@@ -58,11 +59,11 @@
         NSLog(@"Description: %@", details.descrText);
     }
     
-    /*
+    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    CustomScrollViewController *controller = (CustomScrollViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
-    */
+    FirstTableViewController *tableVC = (FirstTableViewController *)navigationController.topViewController;
+    tableVC.managedObjectContext = self.managedObjectContext;
+    
     
     
     // Override point for customization after application launch.

@@ -7,6 +7,7 @@
 //
 
 #import "FirstTableViewController.h"
+#import "CustomScrollViewController.h"
 
 @interface FirstTableViewController ()
 
@@ -46,26 +47,40 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    NSArray *tableViewArray = [[NSArray alloc] initWithObjects:@"General Info", @"Map and Points of Interest", nil];
     
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [tableViewArray objectAtIndex:indexPath.row]];
     // Configure the cell...
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        [self performSegueWithIdentifier:@"infoClicked" sender:self];
+    } else if (indexPath.row == 1) {
+        [self performSegueWithIdentifier:@"mapClicked" sender:self];
+    }
+    
 }
 
 /*
@@ -107,16 +122,20 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"mapClicked"]) {
+        CustomScrollViewController *customSVC = [segue destinationViewController];
+        NSManagedObjectContext *context = self.managedObjectContext;
+        
+        [customSVC setManagedObjectContext:context];
+    }
 }
 
- */
+
 
 @end
