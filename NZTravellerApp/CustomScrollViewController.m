@@ -9,7 +9,7 @@
 #import "CustomScrollViewController.h"
 #import "NZDetailViewController.h"
 #import "NZTravellerPOI.h" //DB
-//#import "NZTravellerDetails.h"
+#import "NZTravellerDetails.h" //DB
 
 @interface CustomScrollViewController ()
 
@@ -25,9 +25,7 @@
 
 @synthesize scrollView = _scrollView;
 @synthesize containerView = _containerView;
-@synthesize managedObjectContext; //DB
 @synthesize nzTravellerPOI; //DB
-@synthesize nzPOI;
 @synthesize nzMap;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -112,7 +110,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     return CGPointMake(p1.x + p2.x, p1.y + p2.y);
 }
 
-- (void)makeButtons:(NSMutableArray *)myarray {
+- (void)makeButtons {
     //function that adds buttons to container view with information from array (later Core Data)
     
     UIImage *starIm = [UIImage imageNamed:@"Star.png"];
@@ -123,28 +121,28 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     CGSize labelSize = CGSizeMake(x/3, y/60);
     CGSize starSize = CGSizeMake(x/60, x/60);
     
-    CGPoint offset = CGPointMake(x*0.02, -y*0.001);
+    CGPoint offset, poiPoint;
     
     int fontsize = (int)x/80;
-
-    NSMutableArray *currentPOI;
     
-    for (int i=0; i<[myarray count]; i++) {
-        currentPOI = [myarray objectAtIndex:i];
-        float xLoc = [[currentPOI objectAtIndex:1] floatValue];
-        float yLoc = [[currentPOI objectAtIndex:2] floatValue];
-        CGPoint myPoint = CGPointMake(x*xLoc, y*yLoc);
-        UILabel *poiLabel = [[UILabel alloc] initWithFrame:(CGRect){.origin = CGPointAdd(myPoint, offset),.size = labelSize}];
+    for (int i=0; i<[nzTravellerPOI count]; i++) {
+        NZTravellerPOI* poi = [nzTravellerPOI objectAtIndex:i];
+
+        poiPoint = CGPointMake(x*[poi.xLoc floatValue], y*[poi.yLoc floatValue]);
+        offset = CGPointMake(x*[poi.xOff floatValue], y*[poi.yOff floatValue]);
+        
+        UILabel *poiLabel = [[UILabel alloc] initWithFrame:(CGRect){.origin = CGPointAdd(poiPoint, offset),.size = labelSize}];
         poiLabel.font = [poiLabel.font fontWithSize:fontsize];
-        poiLabel.text = [currentPOI objectAtIndex:0];
+        poiLabel.text = poi.name;
         [self.containerView addSubview:poiLabel];
         
         UIButton *poiButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [poiButton setImage:starIm forState:UIControlStateNormal];
-        poiButton.frame = (CGRect){.origin = myPoint,.size = starSize};
+        poiButton.frame = (CGRect){.origin = poiPoint,.size = starSize};
         poiButton.tag = i;
         [poiButton addTarget:self action:@selector(pressedStar:) forControlEvents:UIControlEventTouchUpInside];
         [self.containerView addSubview:poiButton];
+
     }
 }
 
@@ -152,24 +150,29 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    /*
+    
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     NSEntityDescription *entity = [NSEntityDescription
-                                   entityForName:@"NZTravellerPOI" inManagedObjectContext:managedObjectContext];
+                                   entityForName:@"NZTravellerPOI" inManagedObjectContext:_managedObjectContext];
     [fetchRequest setEntity:entity];
     NSError *error;
-    self.nzTravellerPOI = [managedObjectContext executeFetchRequest:fetchRequest error:&error];
-    self.title = @"POI New Zealand";
-     */
+    self.nzTravellerPOI = [_managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    self.title = @"New Zealand";
     
+    /*
+    NZTravellerPOI* poi1 = [nzTravellerPOI objectAtIndex:0];
+    NSLog(@"%@",poi1.name);
+    NSLog(@"%@",poi1.xLoc);
+    */
     
+    /*
     //setUp Matrix that holds info for now, to be replaced with Core Data
     nzPOI = [[NSMutableArray alloc] initWithCapacity: 3];
     
     [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Mt. Maunganui",[NSNumber numberWithFloat:0.7],[NSNumber numberWithFloat:0.28],nil] atIndex:0];
     [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Karikari",[NSNumber numberWithFloat:0.69],[NSNumber numberWithFloat:0.23],nil] atIndex:1];
     [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Blue Pools",[NSNumber numberWithFloat:0.5],[NSNumber numberWithFloat:0.3],nil] atIndex:2];
-    
+    */
     
     //setup container view that will hold map image, labels and buttons
     nzMap = [UIImage imageNamed:@"NewZealandMapKMM.png"];
@@ -184,7 +187,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     [self.containerView addSubview:imageView];
     
     //add buttons and labels to container view
-    [self makeButtons:nzPOI];
+    [self makeButtons];
     
     
     //TapRecognizer
@@ -229,7 +232,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 
 - (void)setManagedObjectContext:(NSManagedObjectContext *)context
 {
-    self.managedObjectContext = context;
+    _managedObjectContext = context;
 }
 
 
@@ -238,8 +241,10 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     if ([[segue identifier] isEqualToString:@"detailSegue"]) {
         NZDetailViewController *vc = [segue destinationViewController];
         NSInteger tagIndex = [(UIButton *)sender tag];
+        NSManagedObjectContext *context = _managedObjectContext;
         
         [vc setDetailIndex:tagIndex];
+        [vc setManagedObjectContext:context];
     }
 }
 

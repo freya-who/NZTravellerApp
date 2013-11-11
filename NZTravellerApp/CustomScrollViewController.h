@@ -18,7 +18,6 @@
 
 @property (nonatomic,strong) NSManagedObjectContext* managedObjectContext; //DB
 @property (nonatomic, strong) NSArray *nzTravellerPOI;
-@property (nonatomic, strong) NSMutableArray *nzPOI;
 @property (nonatomic, strong) UIImage *nzMap;
 
 //-(IBAction)pressedMtM:(id)sender;

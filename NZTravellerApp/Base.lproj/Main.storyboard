@@ -115,52 +115,6 @@
             </objects>
             <point key="canvasLocation" x="136" y="80"/>
         </scene>
-        <!--Peek Paged Scroll View Controller-->
-        <scene sceneID="nsU-lb-Wbo">
-            <objects>
-                <viewController id="knm-mF-kbW" customClass="PeekPagedScrollViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sye-m8-esV"/>
-                        <viewControllerLayoutGuide type="bottom" id="Omo-xX-hLF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="I6h-ch-LGT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="H7C-dQ-9tn">
-                                <rect key="frame" x="20" y="423" width="280" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pKk-rS-4A3" customClass="ScrollViewContainer">
-                                <rect key="frame" x="0.0" y="135" width="320" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uiy-bh-x5I">
-                                        <rect key="frame" x="60" y="1" width="201" height="257"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="knm-mF-kbW" id="Ak4-97-n1U"/>
-                                        </connections>
-                                    </scrollView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="scrollView" destination="Uiy-bh-x5I" id="kpi-6T-eIh"/>
-                                </connections>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wW2-eN-8bX"/>
-                    <connections>
-                        <outlet property="pageControl" destination="H7C-dQ-9tn" id="sWK-xS-RjT"/>
-                        <outlet property="scrollView" destination="Uiy-bh-x5I" id="CJW-eD-cah"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="39O-yS-AUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2067" y="-534"/>
-        </scene>
         <!--Detail View Controller-->
         <scene sceneID="7hW-Ws-fWf">
             <objects>
@@ -174,69 +128,84 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail View Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1c-Rh-K43">
-                                <rect key="frame" x="85" y="234" width="151" height="21"/>
+                                <rect key="frame" x="85" y="176" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3i-rw-HzE">
+                                <rect key="frame" x="139" y="102" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2jL-uA-qFd" customClass="ScrollViewContainer">
+                                <rect key="frame" x="0.0" y="258" width="320" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-IW-aw8">
+                                        <rect key="frame" x="78" y="0.0" width="165" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="j84-Ho-hmg" id="om1-ma-ZEH"/>
+                                        </connections>
+                                    </scrollView>
+                                </subviews>
+                                <connections>
+                                    <outlet property="scrollView" destination="tlf-IW-aw8" id="dAX-nU-oqW"/>
+                                </connections>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1ZR-hU-wmQ">
+                                <rect key="frame" x="143" y="436" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.49435314960777876" green="0.59268791060578296" blue="0.77184527853260865" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UsX-n4-Oy0"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="Q1c-Rh-K43" id="KGz-di-0mc"/>
+                        <outlet property="nameLabel" destination="J3i-rw-HzE" id="Jbz-dx-JHv"/>
+                        <outlet property="pageControl" destination="1ZR-hU-wmQ" id="Lb7-av-h15"/>
+                        <outlet property="scrollView" destination="tlf-IW-aw8" id="aSB-oz-kVX"/>
+                        <segue destination="WzT-cP-RXv" kind="push" identifier="photoSegue" id="kX4-dD-muB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvg-al-jTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1567" y="75"/>
         </scene>
-        <!--Peek Paged Scroll View Controller-->
-        <scene sceneID="nFt-dE-IAE">
+        <!--Image Scroll View Controller-->
+        <scene sceneID="Tdb-vt-AsE">
             <objects>
-                <viewController id="BKq-NF-TTb" customClass="PeekPagedScrollViewController" sceneMemberID="viewController">
+                <viewController id="WzT-cP-RXv" customClass="ImageScrollViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FIS-ir-SvD"/>
-                        <viewControllerLayoutGuide type="bottom" id="3yU-Xo-GOL"/>
+                        <viewControllerLayoutGuide type="top" id="6tm-qh-UG2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zcq-52-lVO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Tih-KP-yAX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="N9F-1A-Ygl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="pjH-UY-k0b">
-                                <rect key="frame" x="20" y="423" width="280" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zW1-Cb-Yyx" customClass="ScrollViewContainer">
-                                <rect key="frame" x="0.0" y="135" width="320" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-SK-jfH">
-                                        <rect key="frame" x="60" y="1" width="201" height="257"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="BKq-NF-TTb" id="F6A-hb-Iex"/>
-                                        </connections>
-                                    </scrollView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jRU-Fa-8AQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
-                                    <outlet property="scrollView" destination="rmV-SK-jfH" id="a4T-bz-HTA"/>
+                                    <outlet property="delegate" destination="WzT-cP-RXv" id="mEL-Sy-Ms3"/>
                                 </connections>
-                            </view>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BLE-iL-q1b"/>
+                    <navigationItem key="navigationItem" id="OhK-ot-T7a"/>
                     <connections>
-                        <outlet property="pageControl" destination="pjH-UY-k0b" id="2ra-fC-ue0"/>
-                        <outlet property="scrollView" destination="rmV-SK-jfH" id="wmX-f3-ghq"/>
+                        <outlet property="scrollView" destination="jRU-Fa-8AQ" id="W3v-Kn-22J"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GSy-OY-23M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nd5-ih-NQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2067" y="75"/>
+            <point key="canvasLocation" x="2005" y="75"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

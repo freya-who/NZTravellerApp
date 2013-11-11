@@ -22,8 +22,9 @@
 {
     //DB all
     
-    NSManagedObjectContext *context = [self managedObjectContext];
+   // NSManagedObjectContext *context = [self managedObjectContext];
     
+    /*
     NZTravellerPOI *nzTravellerPOI = [NSEntityDescription
                                        insertNewObjectForEntityForName:@"NZTravellerPOI"
                                        inManagedObjectContext:context];
@@ -41,10 +42,15 @@
     nzTravellerDetails.rating = [NSNumber numberWithInt:3];
     nzTravellerDetails.info = nzTravellerPOI;
     nzTravellerPOI.details = nzTravellerDetails;
+     
+     */
+    
+    /*
     NSError *error;
     if (![context save:&error]) {
         NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
     }
+    
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     NSEntityDescription *entity = [NSEntityDescription
@@ -58,7 +64,7 @@
         NSLog(@"Rating: %@", details.rating);
         NSLog(@"Description: %@", details.descrText);
     }
-    
+    */
     
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     FirstTableViewController *tableVC = (FirstTableViewController *)navigationController.topViewController;
@@ -146,6 +152,16 @@
         return _persistentStoreCoordinator;
     }
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"NZTravellerApp.sqlite"];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:[storeURL path]]) {
+        NSURL *preloadURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CoreDataTutorial2" ofType:@"sqlite"]];
+        NSError* err = nil;
+        
+        if (![[NSFileManager defaultManager] copyItemAtURL:preloadURL toURL:storeURL error:&err]) {
+            NSLog(@"Oops, could copy preloaded data");
+        }
+    }
+    
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])

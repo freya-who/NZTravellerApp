@@ -10,8 +10,15 @@
 
 @interface NZDetailViewController : UIViewController
 
+@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext; //DB
 @property (assign, nonatomic) NSInteger detailIndex;
+@property (nonatomic, strong) NSArray *nzTravellerPOI;
+@property (nonatomic, strong) NSArray *nzTravellerDetail;
+
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-@property (nonatomic, strong) NSMutableArray *nzPOI;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
 
 @end

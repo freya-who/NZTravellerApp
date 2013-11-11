@@ -21,7 +21,6 @@
 		3A06DC901823FD8D009AE70B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DC8E1823FD8D009AE70B /* InfoPlist.strings */; };
 		3A06DC921823FD8D009AE70B /* NZTravellerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */; };
 		3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */; };
-		3A06DCA01823FE15009AE70B /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */; };
 		3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DCA51823FE64009AE70B /* ScrollViewController.m */; };
 		3A06DCAE182401D7009AE70B /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA8182401D7009AE70B /* photo1.png */; };
 		3A06DCAF182401D7009AE70B /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA9182401D7009AE70B /* photo2.png */; };
@@ -60,6 +59,8 @@
 		3A55BFC9182AC0CA007D0B40 /* NZTravellerPOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */; };
 		3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C015182AC97A007D0B40 /* FirstTableViewController.m */; };
 		3AAE216B182AF00F007C6AB8 /* NZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */; };
+		3AAE21BC182C18EA007C6AB8 /* CoreDataTutorial2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3AAE21BB182C18EA007C6AB8 /* CoreDataTutorial2.sqlite */; };
+		3AAE21BF18316B82007C6AB8 /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE21BE18316B82007C6AB8 /* ImageScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,8 +93,6 @@
 		3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZTravellerAppTests.m; sourceTree = "<group>"; };
 		3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
 		3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
-		3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
-		3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
 		3A06DCA41823FE64009AE70B /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
 		3A06DCA51823FE64009AE70B /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 		3A06DCA8182401D7009AE70B /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
@@ -137,6 +136,9 @@
 		3A55C015182AC97A007D0B40 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		3AAE2169182AF00F007C6AB8 /* NZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZDetailViewController.h; sourceTree = "<group>"; };
 		3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZDetailViewController.m; sourceTree = "<group>"; };
+		3AAE21BB182C18EA007C6AB8 /* CoreDataTutorial2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataTutorial2.sqlite; sourceTree = "<group>"; };
+		3AAE21BD18316B82007C6AB8 /* ImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollViewController.h; sourceTree = "<group>"; };
+		3AAE21BE18316B82007C6AB8 /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,11 +169,11 @@
 		3A06DC5A1823FD8D009AE70B = {
 			isa = PBXGroup;
 			children = (
+				3A06DC6C1823FD8D009AE70B /* NZTravellerApp */,
 				3A06DCC2182438A9009AE70B /* icons */,
 				3A06DCB918242904009AE70B /* screenshots */,
 				3A06DCB4182401DF009AE70B /* Images */,
 				3A06DCA7182401D7009AE70B /* ScrollViewsResources */,
-				3A06DC6C1823FD8D009AE70B /* NZTravellerApp */,
 				3A06DC8B1823FD8D009AE70B /* NZTravellerAppTests */,
 				3A06DC651823FD8D009AE70B /* Frameworks */,
 				3A06DC641823FD8D009AE70B /* Products */,
@@ -202,26 +204,27 @@
 		3A06DC6C1823FD8D009AE70B /* NZTravellerApp */ = {
 			isa = PBXGroup;
 			children = (
+				3AAE21BB182C18EA007C6AB8 /* CoreDataTutorial2.sqlite */,
+				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
+				3A06DC781823FD8D009AE70B /* Main.storyboard */,
+				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
 				3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */,
 				3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */,
+				3AAE21BD18316B82007C6AB8 /* ImageScrollViewController.h */,
+				3AAE21BE18316B82007C6AB8 /* ImageScrollViewController.m */,
+				3AAE2169182AF00F007C6AB8 /* NZDetailViewController.h */,
+				3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */,
 				3A06DC751823FD8D009AE70B /* AppDelegate.h */,
 				3A06DC761823FD8D009AE70B /* AppDelegate.m */,
-				3A06DC781823FD8D009AE70B /* Main.storyboard */,
 				3A55C014182AC97A007D0B40 /* FirstTableViewController.h */,
 				3A55C015182AC97A007D0B40 /* FirstTableViewController.m */,
-				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
-				3A06DC6D1823FD8D009AE70B /* Supporting Files */,
-				3A06DC9E1823FE15009AE70B /* PeekPagedScrollViewController.h */,
-				3A06DC9F1823FE15009AE70B /* PeekPagedScrollViewController.m */,
 				3A06DCA41823FE64009AE70B /* ScrollViewController.h */,
 				3A06DCA51823FE64009AE70B /* ScrollViewController.m */,
 				3A55BFC4182AC0C9007D0B40 /* NZTravellerDetails.h */,
 				3A55BFC5182AC0C9007D0B40 /* NZTravellerDetails.m */,
 				3A55BFC7182AC0CA007D0B40 /* NZTravellerPOI.h */,
 				3A55BFC8182AC0CA007D0B40 /* NZTravellerPOI.m */,
-				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
-				3AAE2169182AF00F007C6AB8 /* NZDetailViewController.h */,
-				3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */,
+				3A06DC6D1823FD8D009AE70B /* Supporting Files */,
 			);
 			path = NZTravellerApp;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */,
 				3A06DCDF18243C0E009AE70B /* Icon76pt@2x.png in Resources */,
 				3A06DCDB18243B6D009AE70B /* Icon60pt@2x.png in Resources */,
+				3AAE21BC182C18EA007C6AB8 /* CoreDataTutorial2.sqlite in Resources */,
 				3A06DCE318244222009AE70B /* NewZealandMapM.png in Resources */,
 				3A06DCCE182438A9009AE70B /* Icon-Small-50@2x.png in Resources */,
 				3A06DCAE182401D7009AE70B /* photo1.png in Resources */,
@@ -442,10 +446,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAE21BF18316B82007C6AB8 /* ImageScrollViewController.m in Sources */,
 				3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */,
 				3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */,
 				3A06DC771823FD8D009AE70B /* AppDelegate.m in Sources */,
-				3A06DCA01823FE15009AE70B /* PeekPagedScrollViewController.m in Sources */,
 				3A55BFC9182AC0CA007D0B40 /* NZTravellerPOI.m in Sources */,
 				3A06DC731823FD8D009AE70B /* main.m in Sources */,
 				3A55BFC6182AC0C9007D0B40 /* NZTravellerDetails.m in Sources */,
