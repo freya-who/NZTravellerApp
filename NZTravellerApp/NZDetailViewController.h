@@ -17,8 +17,9 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *detailDescriptionLabel;
 
+@property (nonatomic, strong) IBOutlet UIView *photoView;
 
-@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
-@property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
+//@property (nonatomic, strong) IBOutlet UIView *photoView;
+
 
 @end

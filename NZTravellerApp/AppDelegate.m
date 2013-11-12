@@ -20,52 +20,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //DB all
-    
-   // NSManagedObjectContext *context = [self managedObjectContext];
-    
-    /*
-    NZTravellerPOI *nzTravellerPOI = [NSEntityDescription
-                                       insertNewObjectForEntityForName:@"NZTravellerPOI"
-                                       inManagedObjectContext:context];
-    nzTravellerPOI.name = @"Test POI";
-    nzTravellerPOI.xLoc = [NSNumber numberWithFloat:0.7];
-    nzTravellerPOI.yLoc = [NSNumber numberWithFloat:0.2];
-    nzTravellerPOI.xOff = [NSNumber numberWithFloat:0.03];
-    nzTravellerPOI.yOff = [NSNumber numberWithFloat:0.03];
-    
-    NZTravellerDetails *nzTravellerDetails = [NSEntityDescription
-                                insertNewObjectForEntityForName:@"NZTravellerDetails"
-                                          inManagedObjectContext:context];
-    nzTravellerDetails.descrText = @"This is information Text on the test POI and I hope that I can make it quite long, but we will see.";
-    nzTravellerDetails.photoName = @"photo1.png";
-    nzTravellerDetails.rating = [NSNumber numberWithInt:3];
-    nzTravellerDetails.info = nzTravellerPOI;
-    nzTravellerPOI.details = nzTravellerDetails;
-     
-     */
-    
-    /*
-    NSError *error;
-    if (![context save:&error]) {
-        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
-    }
-    
-    
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    NSEntityDescription *entity = [NSEntityDescription
-                                   entityForName:@"NZTravellerPOI" inManagedObjectContext:context];
-    [fetchRequest setEntity:entity];
-    NSArray *fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];
-    for (NZTravellerPOI *info in fetchedObjects) {
-        NSLog(@"Name: %@", info.name);
-        NSLog(@"x Location: %@", info.xLoc);
-        NZTravellerDetails *details = info.details;
-        NSLog(@"Rating: %@", details.rating);
-        NSLog(@"Description: %@", details.descrText);
-    }
-    */
-    
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     FirstTableViewController *tableVC = (FirstTableViewController *)navigationController.topViewController;
     tableVC.managedObjectContext = self.managedObjectContext;
@@ -154,7 +108,7 @@
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"NZTravellerApp.sqlite"];
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:[storeURL path]]) {
-        NSURL *preloadURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CoreDataTutorial2" ofType:@"sqlite"]];
+        NSURL *preloadURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"NZCoreData" ofType:@"sqlite"]];
         NSError* err = nil;
         
         if (![[NSFileManager defaultManager] copyItemAtURL:preloadURL toURL:storeURL error:&err]) {

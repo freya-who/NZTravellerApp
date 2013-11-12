@@ -13,13 +13,9 @@
 
 @interface NZDetailViewController ()
 
-@property (nonatomic, strong) NSMutableArray *pageImages;
+@property (nonatomic, strong) NSMutableArray *images;
 @property (nonatomic, strong) NSArray *nameArray;
 @property (nonatomic, strong) NSMutableArray *pageViews;
-
-- (void)loadVisiblePages;
-- (void)loadPage:(NSInteger)page;
-- (void)purgePage:(NSInteger)page;
 
 - (void)configureView;
 
@@ -28,6 +24,7 @@
 @implementation NZDetailViewController
 
 @synthesize nzTravellerDetail, nzTravellerPOI;
+@synthesize photoView;
 
 - (void)setDetailIndex:(NSInteger)newDetailIndex
 {
@@ -47,104 +44,55 @@
     self.title = poi.name;
     
 
-    self.pageImages = [[NSMutableArray alloc] init];
+    self.images = [[NSMutableArray alloc] init];
     _nameArray = [detail.photoName componentsSeparatedByString:@","];
-    for (int i=0; i<[_nameArray count]; i++) {
-        NSString *imgName = [_nameArray objectAtIndex:i];
-        UIImage *img = [UIImage imageNamed:imgName];
-        [self.pageImages addObject:img];
+    
+    if (![[_nameArray objectAtIndex:0] isEqualToString:@""]) {
+        for (int i=0; i<[_nameArray count]; i++) {
+            NSString *imgName = [_nameArray objectAtIndex:i];
+            UIImage *img = [UIImage imageNamed:imgName];
+            [self.images addObject:img];
+        }
+        
+        float hP = self.photoView.frame.size.height;
+        float wP = self.photoView.frame.size.width;
+        
+        if ([self.images count]==1) {
+            UIButton *newPhoto = [UIButton buttonWithType:UIButtonTypeCustom];
+            [newPhoto setImage:[self.images objectAtIndex:0] forState:UIControlStateNormal];
+            float x = (wP - hP)/2.0;
+            newPhoto.frame = CGRectMake(x, 0, hP, hP);
+            newPhoto.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+            newPhoto.tag = 0;
+            [newPhoto addTarget:self action:@selector(pressedImage:) forControlEvents:UIControlEventTouchUpInside];
+            [self.photoView addSubview:newPhoto];
+        }
+        
+        else {
+            int n = [self.images count];
+            for (int i=0; i<n; i++) {
+                
+                UIButton *newPhoto = [UIButton buttonWithType:UIButtonTypeCustom];
+                [newPhoto setImage:[self.images objectAtIndex:i] forState:UIControlStateNormal];
+                float b = wP/(n*10);
+                float w = (wP - (n-1)*b)/n;
+                float x;
+                if (i==0) {x=0;}
+                else x = i*((wP+b)/n);
+                float y = hP - w;
+                newPhoto.frame = CGRectMake(x, y, w, w);
+                newPhoto.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+                newPhoto.tag = i;
+                [newPhoto addTarget:self action:@selector(pressedImage:) forControlEvents:UIControlEventTouchUpInside];
+                [self.photoView addSubview:newPhoto];
+            }
+        }
     }
-
-    
-    NSInteger pageCount = self.pageImages.count;
-    
-    // Set up the page control
-    self.pageControl.currentPage = 0;
-    self.pageControl.numberOfPages = pageCount;
-    
-    // Set up the array to hold the views for each page
-    self.pageViews = [[NSMutableArray alloc] init];
-    for (NSInteger i = 0; i < pageCount; ++i) {
-        [self.pageViews addObject:[NSNull null]];
-    }
-
-    
 }
 
 - (void)pressedImage:(id)sender {
     [self performSegueWithIdentifier:@"photoSegue" sender:sender];
     //perform segue
-}
-
-
-- (void)loadVisiblePages {
-    // First, determine which page is currently visible
-    CGFloat pageWidth = self.scrollView.frame.size.width;
-    NSInteger page = (NSInteger)floor((self.scrollView.contentOffset.x * 2.0f + pageWidth) / (pageWidth * 2.0f));
-    
-    // Update the page control
-    self.pageControl.currentPage = page;
-    
-    // Work out which pages you want to load
-    NSInteger firstPage = page - 1;
-    NSInteger lastPage = page + 1;
-    
-    // Purge anything before the first page
-    for (NSInteger i=0; i<firstPage; i++) {
-        [self purgePage:i];
-    }
-    for (NSInteger i=firstPage; i<=lastPage; i++) {
-        [self loadPage:i];
-    }
-    for (NSInteger i=lastPage+1; i<self.pageImages.count; i++) {
-        [self purgePage:i];
-    }
-}
-
-- (void)loadPage:(NSInteger)page {
-    if (page < 0 || page >= self.pageImages.count) {
-        // If it's outside the range of what we have to display, then do nothing
-        return;
-    }
-    
-    // Load an individual page, first checking if you've already loaded it
-    UIView *pageView = [self.pageViews objectAtIndex:page];
-    if ((NSNull*)pageView == [NSNull null]) {
-        CGRect frame = self.scrollView.bounds;
-        frame.origin.x = frame.size.width * page;
-        frame.origin.y = 0.0f;
-        frame = CGRectInset(frame, 10.0f, 0.0f);
-        
-        UIButton *newPageView = [UIButton buttonWithType:UIButtonTypeCustom];
-        [newPageView setImage:[self.pageImages objectAtIndex:page] forState:UIControlStateNormal];
-        newPageView.frame = frame;
-        newPageView.contentHorizontalAlignment = UIControlContentHorizontalAlignmentFill;
-        newPageView.tag = page;
-        [newPageView addTarget:self action:@selector(pressedImage:) forControlEvents:UIControlEventTouchUpInside];
-        [self.scrollView addSubview:newPageView];
-        [self.pageViews replaceObjectAtIndex:page withObject:newPageView];
-
-    }
-}
-
-- (void)purgePage:(NSInteger)page {
-    if (page < 0 || page >= self.pageImages.count) {
-        // If it's outside the range of what you have to display, then do nothing
-        return;
-    }
-    
-    // Remove a page from the scroll view and reset the container array
-    UIView *pageView = [self.pageViews objectAtIndex:page];
-    if ((NSNull*)pageView != [NSNull null]) {
-        [pageView removeFromSuperview];
-        [self.pageViews replaceObjectAtIndex:page withObject:[NSNull null]];
-    }
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    // Load the pages that are now on screen
-    
-    [self loadVisiblePages];
 }
 
 
@@ -166,20 +114,48 @@
     self.nzTravellerDetail = [_managedObjectContext executeFetchRequest:fetchRequest error:&error];
     
     
-    _scrollView.canCancelContentTouches = YES;
+    //self.photoView = [[UIView alloc] initWithFrame:CGRectMake(20, 300, 280, 156)];
+    //[self.view addSubview:photoView];
     
-    [self configureView];
-}
+    
+    /*
+    NZTravellerPOI* poi = [nzTravellerPOI objectAtIndex:_detailIndex];
+    NZTravellerDetails* detail = [nzTravellerDetail objectAtIndex:_detailIndex];
+    
+    self.detailDescriptionLabel.text = detail.descrText;
+    self.title = poi.name;
+    
+    
+    self.images = [[NSMutableArray alloc] init];
+    _nameArray = [detail.photoName componentsSeparatedByString:@","];
+    for (int i=0; i<[_nameArray count]; i++) {
+        NSString *imgName = [_nameArray objectAtIndex:i];
+        UIImage *img = [UIImage imageNamed:imgName];
+        [self.images addObject:img];
+    }
+    */
+    /*
+     float hP = self.photoView.frame.size.height;
+     float wP = self.photoView.frame.size.width;
+     float xP = self.photoView.frame.origin.x;
+     float yP = self.photoView.frame.origin.y;
+     */
+    
+    /*
+    UIImageView *imgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"HaastHighway.JPG"]];
+    //[imgV setFrame:CGRectInset(self.photoView.bounds, 0, 0)];
+    imgV.frame = self.photoView.bounds;
+    UIButton *newPhoto = [UIButton buttonWithType:UIButtonTypeCustom];
+    [newPhoto setImage:[self.images objectAtIndex:0] forState:UIControlStateNormal];
+    newPhoto.frame = self.photoView.frame;
+    [self.photoView addSubview:imgV];
+    */
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
     
-    // Set up the content size of the scroll view
-    CGSize pagesScrollViewSize = self.scrollView.frame.size;
-    self.scrollView.contentSize = CGSizeMake(pagesScrollViewSize.width * self.pageImages.count, pagesScrollViewSize.height);
+    NSLog(@"%@", NSStringFromCGRect(self.photoView.frame));
+    NSLog(@"%@", NSStringFromCGRect(self.photoView.bounds));
     
-    // Load the initial set of pages that are on screen
-    [self loadVisiblePages];
+   [self configureView];
 }
 
 

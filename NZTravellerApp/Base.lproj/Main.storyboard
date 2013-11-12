@@ -127,28 +127,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2jL-uA-qFd" customClass="ScrollViewContainer">
-                                <rect key="frame" x="0.0" y="258" width="320" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <scrollView multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-IW-aw8">
-                                        <rect key="frame" x="78" y="0.0" width="165" height="170"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="j84-Ho-hmg" id="om1-ma-ZEH"/>
-                                        </connections>
-                                    </scrollView>
-                                </subviews>
-                                <connections>
-                                    <outlet property="scrollView" destination="tlf-IW-aw8" id="dAX-nU-oqW"/>
-                                </connections>
-                            </view>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1ZR-hU-wmQ">
-                                <rect key="frame" x="143" y="436" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3NU-AJ-rTm">
-                                <rect key="frame" x="42" y="87" width="240" height="128"/>
+                                <rect key="frame" x="20" y="90" width="280" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -157,14 +137,17 @@
                                     <outlet property="delegate" destination="j84-Ho-hmg" id="ro7-5K-ICf"/>
                                 </connections>
                             </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y4x-Tk-YlL">
+                                <rect key="frame" x="20" y="295" width="280" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.49435314960777876" green="0.59268791060578296" blue="0.77184527853260865" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="UsX-n4-Oy0"/>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="3NU-AJ-rTm" id="gjy-NX-5td"/>
-                        <outlet property="pageControl" destination="1ZR-hU-wmQ" id="Lb7-av-h15"/>
-                        <outlet property="scrollView" destination="tlf-IW-aw8" id="aSB-oz-kVX"/>
+                        <outlet property="photoView" destination="y4x-Tk-YlL" id="cXF-sb-HX6"/>
                         <segue destination="WzT-cP-RXv" kind="push" identifier="photoSegue" id="kX4-dD-muB"/>
                     </connections>
                 </viewController>
