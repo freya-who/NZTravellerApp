@@ -14,6 +14,7 @@
 @interface NZTravellerDetails : NSManagedObject
 
 @property (nonatomic, retain) NSString * descrText;
+@property (nonatomic, retain) NSString * coordinates;
 @property (nonatomic, retain) NSNumber * rating;
 @property (nonatomic, retain) NSString * photoName;
 @property (nonatomic, retain) NZTravellerPOI *info;

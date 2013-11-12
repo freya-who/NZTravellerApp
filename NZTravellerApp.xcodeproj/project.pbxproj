@@ -61,50 +61,54 @@
 		3AAE216B182AF00F007C6AB8 /* NZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE216A182AF00F007C6AB8 /* NZDetailViewController.m */; };
 		3AAE21BC182C18EA007C6AB8 /* CoreDataTutorial2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3AAE21BB182C18EA007C6AB8 /* CoreDataTutorial2.sqlite */; };
 		3AAE21BF18316B82007C6AB8 /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE21BE18316B82007C6AB8 /* ImageScrollViewController.m */; };
-		3AE73E1F183287A100AD06AD /* Arataki Visitor Centre.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF3183287A100AD06AD /* Arataki Visitor Centre.JPG */; };
-		3AE73E20183287A100AD06AD /* Baldwind St (Steilste Str).JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF4183287A100AD06AD /* Baldwind St (Steilste Str).JPG */; };
-		3AE73E21183287A100AD06AD /* BethellsBeach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF5183287A100AD06AD /* BethellsBeach.jpg */; };
-		3AE73E22183287A100AD06AD /* Cape Palliser LightHouse.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF6183287A100AD06AD /* Cape Palliser LightHouse.JPG */; };
-		3AE73E23183287A100AD06AD /* Cape Palliser Seal Colony.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF7183287A100AD06AD /* Cape Palliser Seal Colony.JPG */; };
-		3AE73E24183287A100AD06AD /* CapeReinga.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF8183287A100AD06AD /* CapeReinga.JPG */; };
-		3AE73E25183287A100AD06AD /* CathedralCove.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DF9183287A100AD06AD /* CathedralCove.JPG */; };
-		3AE73E26183287A100AD06AD /* East Cape 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFA183287A100AD06AD /* East Cape 2.JPG */; };
-		3AE73E27183287A100AD06AD /* East Cape.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFB183287A100AD06AD /* East Cape.JPG */; };
-		3AE73E28183287A100AD06AD /* Franz Josef Glacier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFC183287A100AD06AD /* Franz Josef Glacier.jpg */; };
-		3AE73E29183287A100AD06AD /* Glenorchy Walkway.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFD183287A100AD06AD /* Glenorchy Walkway.JPG */; };
-		3AE73E2A183287A100AD06AD /* Glenorchy:Otago 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFE183287A100AD06AD /* Glenorchy:Otago 2.JPG */; };
-		3AE73E2B183287A100AD06AD /* Glenorchy:Otago.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73DFF183287A100AD06AD /* Glenorchy:Otago.JPG */; };
-		3AE73E2C183287A100AD06AD /* Glenorchy:Weg zum Diamond Lake.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E00183287A100AD06AD /* Glenorchy:Weg zum Diamond Lake.JPG */; };
-		3AE73E2D183287A100AD06AD /* Haast Highway 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E01183287A100AD06AD /* Haast Highway 2.JPG */; };
-		3AE73E2E183287A100AD06AD /* Haast Highway 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E02183287A100AD06AD /* Haast Highway 3.JPG */; };
-		3AE73E2F183287A100AD06AD /* Haast Highway Blue Pools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E03183287A100AD06AD /* Haast Highway Blue Pools.jpg */; };
-		3AE73E30183287A100AD06AD /* Haast Highway.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E04183287A100AD06AD /* Haast Highway.JPG */; };
-		3AE73E31183287A100AD06AD /* HamiltonGardens.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E05183287A100AD06AD /* HamiltonGardens.JPG */; };
-		3AE73E32183287A100AD06AD /* Harcourt Park.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E06183287A100AD06AD /* Harcourt Park.JPG */; };
-		3AE73E33183287A100AD06AD /* HotWaterBeach.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E07183287A100AD06AD /* HotWaterBeach.JPG */; };
-		3AE73E34183287A100AD06AD /* Hundertwassertoiletten.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E08183287A100AD06AD /* Hundertwassertoiletten.JPG */; };
-		3AE73E35183287A100AD06AD /* Kaikoura.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E09183287A100AD06AD /* Kaikoura.JPG */; };
-		3AE73E36183287A100AD06AD /* Kaitoke Regional Park.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0A183287A100AD06AD /* Kaitoke Regional Park.JPG */; };
-		3AE73E37183287A100AD06AD /* Karikari Estate Weingut.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0B183287A100AD06AD /* Karikari Estate Weingut.JPG */; };
-		3AE73E38183287A100AD06AD /* Kinloch.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0C183287A100AD06AD /* Kinloch.JPG */; };
-		3AE73E39183287A100AD06AD /* Lake Marian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0D183287A100AD06AD /* Lake Marian.jpg */; };
-		3AE73E3A183287A100AD06AD /* LakeRotorua.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0E183287A100AD06AD /* LakeRotorua.JPG */; };
-		3AE73E3B183287A100AD06AD /* Marlborough Sounds 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E0F183287A100AD06AD /* Marlborough Sounds 2.JPG */; };
-		3AE73E3C183287A100AD06AD /* Marlborough Sounds.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E10183287A100AD06AD /* Marlborough Sounds.JPG */; };
-		3AE73E3D183287A100AD06AD /* Milford Sound 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E11183287A100AD06AD /* Milford Sound 2.jpg */; };
-		3AE73E3E183287A100AD06AD /* Mount Maunganui 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E12183287A100AD06AD /* Mount Maunganui 2.JPG */; };
-		3AE73E3F183287A100AD06AD /* Mount Maunganui.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E13183287A100AD06AD /* Mount Maunganui.JPG */; };
-		3AE73E40183287A100AD06AD /* Old Cromwell Town.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E14183287A100AD06AD /* Old Cromwell Town.JPG */; };
-		3AE73E41183287A100AD06AD /* PihaBeach.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E15183287A100AD06AD /* PihaBeach.JPG */; };
-		3AE73E42183287A100AD06AD /* PihaWaterfall.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E16183287A100AD06AD /* PihaWaterfall.JPG */; };
-		3AE73E43183287A100AD06AD /* Princess Bay Parkplatz.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E17183287A100AD06AD /* Princess Bay Parkplatz.JPG */; };
-		3AE73E44183287A100AD06AD /* Queenstown Jetboat.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E18183287A100AD06AD /* Queenstown Jetboat.JPG */; };
-		3AE73E45183287A100AD06AD /* Queenstown.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E19183287A100AD06AD /* Queenstown.JPG */; };
-		3AE73E46183287A100AD06AD /* Railway Station Dunedin.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E1A183287A100AD06AD /* Railway Station Dunedin.JPG */; };
-		3AE73E47183287A100AD06AD /* ruhigerStrand.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E1B183287A100AD06AD /* ruhigerStrand.JPG */; };
-		3AE73E48183287A100AD06AD /* TongariroCrossing.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E1C183287A100AD06AD /* TongariroCrossing.JPG */; };
-		3AE73E49183287A100AD06AD /* Wai-O-Tapu Thermal Wonderland.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E1D183287A100AD06AD /* Wai-O-Tapu Thermal Wonderland.JPG */; };
-		3AE73E4A183287A100AD06AD /* Wanaka Puzzling World.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E1E183287A100AD06AD /* Wanaka Puzzling World.JPG */; };
+		3AE73E7C1832A65700AD06AD /* AratakiVisitorCentre.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E4C1832A65700AD06AD /* AratakiVisitorCentre.JPG */; };
+		3AE73E7D1832A65700AD06AD /* BaldwinSt.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E4D1832A65700AD06AD /* BaldwinSt.JPG */; };
+		3AE73E7E1832A65700AD06AD /* BethellsBeach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E4E1832A65700AD06AD /* BethellsBeach.jpg */; };
+		3AE73E7F1832A65700AD06AD /* CapePalliserLightHouse.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E4F1832A65700AD06AD /* CapePalliserLightHouse.JPG */; };
+		3AE73E801832A65700AD06AD /* CapePalliserSealColony.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E501832A65700AD06AD /* CapePalliserSealColony.JPG */; };
+		3AE73E811832A65700AD06AD /* CapeReinga.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E511832A65700AD06AD /* CapeReinga.JPG */; };
+		3AE73E821832A65700AD06AD /* CathedralCove.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E521832A65700AD06AD /* CathedralCove.JPG */; };
+		3AE73E831832A65700AD06AD /* EastCape.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E531832A65700AD06AD /* EastCape.JPG */; };
+		3AE73E841832A65700AD06AD /* EastCape2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E541832A65700AD06AD /* EastCape2.JPG */; };
+		3AE73E851832A65700AD06AD /* FranzJosefGlacier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E551832A65700AD06AD /* FranzJosefGlacier.jpg */; };
+		3AE73E861832A65700AD06AD /* GlenorchyOtago.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E561832A65700AD06AD /* GlenorchyOtago.JPG */; };
+		3AE73E871832A65700AD06AD /* GlenorchyOtago2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E571832A65700AD06AD /* GlenorchyOtago2.JPG */; };
+		3AE73E881832A65700AD06AD /* GlenorchyWalkway.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E581832A65700AD06AD /* GlenorchyWalkway.JPG */; };
+		3AE73E891832A65700AD06AD /* GlenorchyWegzumDiamondLake.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E591832A65700AD06AD /* GlenorchyWegzumDiamondLake.JPG */; };
+		3AE73E8A1832A65700AD06AD /* HaastHighway.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5A1832A65700AD06AD /* HaastHighway.JPG */; };
+		3AE73E8B1832A65700AD06AD /* HaastHighway2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5B1832A65700AD06AD /* HaastHighway2.JPG */; };
+		3AE73E8C1832A65700AD06AD /* HaastHighway3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5C1832A65700AD06AD /* HaastHighway3.JPG */; };
+		3AE73E8D1832A65700AD06AD /* HaastHighwayBluePools.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5D1832A65700AD06AD /* HaastHighwayBluePools.jpg */; };
+		3AE73E8E1832A65700AD06AD /* HaastHighwayPancakeRocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5E1832A65700AD06AD /* HaastHighwayPancakeRocks.jpg */; };
+		3AE73E8F1832A65700AD06AD /* HaastHighwayPancakeRocks2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E5F1832A65700AD06AD /* HaastHighwayPancakeRocks2.jpg */; };
+		3AE73E901832A65700AD06AD /* HamiltonGardens.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E601832A65700AD06AD /* HamiltonGardens.JPG */; };
+		3AE73E911832A65700AD06AD /* HarcourtPark.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E611832A65700AD06AD /* HarcourtPark.JPG */; };
+		3AE73E921832A65700AD06AD /* HotWaterBeach.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E621832A65700AD06AD /* HotWaterBeach.JPG */; };
+		3AE73E931832A65700AD06AD /* Hundertwassertoiletten.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E631832A65700AD06AD /* Hundertwassertoiletten.JPG */; };
+		3AE73E941832A65700AD06AD /* Kaikoura.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E641832A65700AD06AD /* Kaikoura.JPG */; };
+		3AE73E951832A65700AD06AD /* KaitokeRegionalPark.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E651832A65700AD06AD /* KaitokeRegionalPark.JPG */; };
+		3AE73E961832A65700AD06AD /* KarikariEstateWeingut.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E661832A65700AD06AD /* KarikariEstateWeingut.JPG */; };
+		3AE73E971832A65700AD06AD /* Kinloch.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E671832A65700AD06AD /* Kinloch.JPG */; };
+		3AE73E981832A65700AD06AD /* LakeMarian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E681832A65700AD06AD /* LakeMarian.jpg */; };
+		3AE73E991832A65700AD06AD /* LakeRotorua.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E691832A65700AD06AD /* LakeRotorua.JPG */; };
+		3AE73E9A1832A65700AD06AD /* MarlboroughSounds.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6A1832A65700AD06AD /* MarlboroughSounds.JPG */; };
+		3AE73E9B1832A65700AD06AD /* MarlboroughSounds2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6B1832A65700AD06AD /* MarlboroughSounds2.JPG */; };
+		3AE73E9C1832A65700AD06AD /* MilfordSound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6C1832A65700AD06AD /* MilfordSound.jpg */; };
+		3AE73E9D1832A65700AD06AD /* MilfordSound2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6D1832A65700AD06AD /* MilfordSound2.jpg */; };
+		3AE73E9E1832A65700AD06AD /* MountMaunganui.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6E1832A65700AD06AD /* MountMaunganui.JPG */; };
+		3AE73E9F1832A65700AD06AD /* MountMaunganui2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E6F1832A65700AD06AD /* MountMaunganui2.JPG */; };
+		3AE73EA01832A65700AD06AD /* OldCromwellTown.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E701832A65700AD06AD /* OldCromwellTown.JPG */; };
+		3AE73EA11832A65700AD06AD /* PihaBeach.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E711832A65700AD06AD /* PihaBeach.JPG */; };
+		3AE73EA21832A65700AD06AD /* PihaWaterfall.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E721832A65700AD06AD /* PihaWaterfall.JPG */; };
+		3AE73EA31832A65700AD06AD /* PrincessBayParkplatz.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E731832A65700AD06AD /* PrincessBayParkplatz.JPG */; };
+		3AE73EA41832A65700AD06AD /* Queenstown.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E741832A65700AD06AD /* Queenstown.JPG */; };
+		3AE73EA51832A65700AD06AD /* QueenstownJetboat.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E751832A65700AD06AD /* QueenstownJetboat.JPG */; };
+		3AE73EA61832A65700AD06AD /* RailwayStationDunedin.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E761832A65700AD06AD /* RailwayStationDunedin.JPG */; };
+		3AE73EA71832A65700AD06AD /* ruhigerStrand.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E771832A65700AD06AD /* ruhigerStrand.JPG */; };
+		3AE73EA81832A65700AD06AD /* TongariroCrossing.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E781832A65700AD06AD /* TongariroCrossing.JPG */; };
+		3AE73EA91832A65700AD06AD /* WaiOTapuThermalWonderland.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E791832A65700AD06AD /* WaiOTapuThermalWonderland.JPG */; };
+		3AE73EAA1832A65700AD06AD /* WanakaLakeHawea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E7A1832A65700AD06AD /* WanakaLakeHawea.jpg */; };
+		3AE73EAB1832A65700AD06AD /* WanakaPuzzlingWorld.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3AE73E7B1832A65700AD06AD /* WanakaPuzzlingWorld.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,50 +187,54 @@
 		3AAE21BB182C18EA007C6AB8 /* CoreDataTutorial2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataTutorial2.sqlite; sourceTree = "<group>"; };
 		3AAE21BD18316B82007C6AB8 /* ImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollViewController.h; sourceTree = "<group>"; };
 		3AAE21BE18316B82007C6AB8 /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
-		3AE73DF3183287A100AD06AD /* Arataki Visitor Centre.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arataki Visitor Centre.JPG"; sourceTree = "<group>"; };
-		3AE73DF4183287A100AD06AD /* Baldwind St (Steilste Str).JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Baldwind St (Steilste Str).JPG"; sourceTree = "<group>"; };
-		3AE73DF5183287A100AD06AD /* BethellsBeach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BethellsBeach.jpg; sourceTree = "<group>"; };
-		3AE73DF6183287A100AD06AD /* Cape Palliser LightHouse.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cape Palliser LightHouse.JPG"; sourceTree = "<group>"; };
-		3AE73DF7183287A100AD06AD /* Cape Palliser Seal Colony.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cape Palliser Seal Colony.JPG"; sourceTree = "<group>"; };
-		3AE73DF8183287A100AD06AD /* CapeReinga.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapeReinga.JPG; sourceTree = "<group>"; };
-		3AE73DF9183287A100AD06AD /* CathedralCove.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CathedralCove.JPG; sourceTree = "<group>"; };
-		3AE73DFA183287A100AD06AD /* East Cape 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "East Cape 2.JPG"; sourceTree = "<group>"; };
-		3AE73DFB183287A100AD06AD /* East Cape.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "East Cape.JPG"; sourceTree = "<group>"; };
-		3AE73DFC183287A100AD06AD /* Franz Josef Glacier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Franz Josef Glacier.jpg"; sourceTree = "<group>"; };
-		3AE73DFD183287A100AD06AD /* Glenorchy Walkway.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glenorchy Walkway.JPG"; sourceTree = "<group>"; };
-		3AE73DFE183287A100AD06AD /* Glenorchy:Otago 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glenorchy:Otago 2.JPG"; sourceTree = "<group>"; };
-		3AE73DFF183287A100AD06AD /* Glenorchy:Otago.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glenorchy:Otago.JPG"; sourceTree = "<group>"; };
-		3AE73E00183287A100AD06AD /* Glenorchy:Weg zum Diamond Lake.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glenorchy:Weg zum Diamond Lake.JPG"; sourceTree = "<group>"; };
-		3AE73E01183287A100AD06AD /* Haast Highway 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haast Highway 2.JPG"; sourceTree = "<group>"; };
-		3AE73E02183287A100AD06AD /* Haast Highway 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haast Highway 3.JPG"; sourceTree = "<group>"; };
-		3AE73E03183287A100AD06AD /* Haast Highway Blue Pools.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haast Highway Blue Pools.jpg"; sourceTree = "<group>"; };
-		3AE73E04183287A100AD06AD /* Haast Highway.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haast Highway.JPG"; sourceTree = "<group>"; };
-		3AE73E05183287A100AD06AD /* HamiltonGardens.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HamiltonGardens.JPG; sourceTree = "<group>"; };
-		3AE73E06183287A100AD06AD /* Harcourt Park.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harcourt Park.JPG"; sourceTree = "<group>"; };
-		3AE73E07183287A100AD06AD /* HotWaterBeach.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HotWaterBeach.JPG; sourceTree = "<group>"; };
-		3AE73E08183287A100AD06AD /* Hundertwassertoiletten.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hundertwassertoiletten.JPG; sourceTree = "<group>"; };
-		3AE73E09183287A100AD06AD /* Kaikoura.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kaikoura.JPG; sourceTree = "<group>"; };
-		3AE73E0A183287A100AD06AD /* Kaitoke Regional Park.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kaitoke Regional Park.JPG"; sourceTree = "<group>"; };
-		3AE73E0B183287A100AD06AD /* Karikari Estate Weingut.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Karikari Estate Weingut.JPG"; sourceTree = "<group>"; };
-		3AE73E0C183287A100AD06AD /* Kinloch.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kinloch.JPG; sourceTree = "<group>"; };
-		3AE73E0D183287A100AD06AD /* Lake Marian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lake Marian.jpg"; sourceTree = "<group>"; };
-		3AE73E0E183287A100AD06AD /* LakeRotorua.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeRotorua.JPG; sourceTree = "<group>"; };
-		3AE73E0F183287A100AD06AD /* Marlborough Sounds 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marlborough Sounds 2.JPG"; sourceTree = "<group>"; };
-		3AE73E10183287A100AD06AD /* Marlborough Sounds.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marlborough Sounds.JPG"; sourceTree = "<group>"; };
-		3AE73E11183287A100AD06AD /* Milford Sound 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Milford Sound 2.jpg"; sourceTree = "<group>"; };
-		3AE73E12183287A100AD06AD /* Mount Maunganui 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mount Maunganui 2.JPG"; sourceTree = "<group>"; };
-		3AE73E13183287A100AD06AD /* Mount Maunganui.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mount Maunganui.JPG"; sourceTree = "<group>"; };
-		3AE73E14183287A100AD06AD /* Old Cromwell Town.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Cromwell Town.JPG"; sourceTree = "<group>"; };
-		3AE73E15183287A100AD06AD /* PihaBeach.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PihaBeach.JPG; sourceTree = "<group>"; };
-		3AE73E16183287A100AD06AD /* PihaWaterfall.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PihaWaterfall.JPG; sourceTree = "<group>"; };
-		3AE73E17183287A100AD06AD /* Princess Bay Parkplatz.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Princess Bay Parkplatz.JPG"; sourceTree = "<group>"; };
-		3AE73E18183287A100AD06AD /* Queenstown Jetboat.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Queenstown Jetboat.JPG"; sourceTree = "<group>"; };
-		3AE73E19183287A100AD06AD /* Queenstown.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queenstown.JPG; sourceTree = "<group>"; };
-		3AE73E1A183287A100AD06AD /* Railway Station Dunedin.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Railway Station Dunedin.JPG"; sourceTree = "<group>"; };
-		3AE73E1B183287A100AD06AD /* ruhigerStrand.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruhigerStrand.JPG; sourceTree = "<group>"; };
-		3AE73E1C183287A100AD06AD /* TongariroCrossing.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TongariroCrossing.JPG; sourceTree = "<group>"; };
-		3AE73E1D183287A100AD06AD /* Wai-O-Tapu Thermal Wonderland.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wai-O-Tapu Thermal Wonderland.JPG"; sourceTree = "<group>"; };
-		3AE73E1E183287A100AD06AD /* Wanaka Puzzling World.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wanaka Puzzling World.JPG"; sourceTree = "<group>"; };
+		3AE73E4C1832A65700AD06AD /* AratakiVisitorCentre.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AratakiVisitorCentre.JPG; sourceTree = "<group>"; };
+		3AE73E4D1832A65700AD06AD /* BaldwinSt.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaldwinSt.JPG; sourceTree = "<group>"; };
+		3AE73E4E1832A65700AD06AD /* BethellsBeach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BethellsBeach.jpg; sourceTree = "<group>"; };
+		3AE73E4F1832A65700AD06AD /* CapePalliserLightHouse.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapePalliserLightHouse.JPG; sourceTree = "<group>"; };
+		3AE73E501832A65700AD06AD /* CapePalliserSealColony.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapePalliserSealColony.JPG; sourceTree = "<group>"; };
+		3AE73E511832A65700AD06AD /* CapeReinga.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapeReinga.JPG; sourceTree = "<group>"; };
+		3AE73E521832A65700AD06AD /* CathedralCove.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CathedralCove.JPG; sourceTree = "<group>"; };
+		3AE73E531832A65700AD06AD /* EastCape.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EastCape.JPG; sourceTree = "<group>"; };
+		3AE73E541832A65700AD06AD /* EastCape2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EastCape2.JPG; sourceTree = "<group>"; };
+		3AE73E551832A65700AD06AD /* FranzJosefGlacier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FranzJosefGlacier.jpg; sourceTree = "<group>"; };
+		3AE73E561832A65700AD06AD /* GlenorchyOtago.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlenorchyOtago.JPG; sourceTree = "<group>"; };
+		3AE73E571832A65700AD06AD /* GlenorchyOtago2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlenorchyOtago2.JPG; sourceTree = "<group>"; };
+		3AE73E581832A65700AD06AD /* GlenorchyWalkway.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlenorchyWalkway.JPG; sourceTree = "<group>"; };
+		3AE73E591832A65700AD06AD /* GlenorchyWegzumDiamondLake.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlenorchyWegzumDiamondLake.JPG; sourceTree = "<group>"; };
+		3AE73E5A1832A65700AD06AD /* HaastHighway.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighway.JPG; sourceTree = "<group>"; };
+		3AE73E5B1832A65700AD06AD /* HaastHighway2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighway2.JPG; sourceTree = "<group>"; };
+		3AE73E5C1832A65700AD06AD /* HaastHighway3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighway3.JPG; sourceTree = "<group>"; };
+		3AE73E5D1832A65700AD06AD /* HaastHighwayBluePools.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighwayBluePools.jpg; sourceTree = "<group>"; };
+		3AE73E5E1832A65700AD06AD /* HaastHighwayPancakeRocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighwayPancakeRocks.jpg; sourceTree = "<group>"; };
+		3AE73E5F1832A65700AD06AD /* HaastHighwayPancakeRocks2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HaastHighwayPancakeRocks2.jpg; sourceTree = "<group>"; };
+		3AE73E601832A65700AD06AD /* HamiltonGardens.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HamiltonGardens.JPG; sourceTree = "<group>"; };
+		3AE73E611832A65700AD06AD /* HarcourtPark.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HarcourtPark.JPG; sourceTree = "<group>"; };
+		3AE73E621832A65700AD06AD /* HotWaterBeach.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HotWaterBeach.JPG; sourceTree = "<group>"; };
+		3AE73E631832A65700AD06AD /* Hundertwassertoiletten.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hundertwassertoiletten.JPG; sourceTree = "<group>"; };
+		3AE73E641832A65700AD06AD /* Kaikoura.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kaikoura.JPG; sourceTree = "<group>"; };
+		3AE73E651832A65700AD06AD /* KaitokeRegionalPark.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KaitokeRegionalPark.JPG; sourceTree = "<group>"; };
+		3AE73E661832A65700AD06AD /* KarikariEstateWeingut.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KarikariEstateWeingut.JPG; sourceTree = "<group>"; };
+		3AE73E671832A65700AD06AD /* Kinloch.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kinloch.JPG; sourceTree = "<group>"; };
+		3AE73E681832A65700AD06AD /* LakeMarian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeMarian.jpg; sourceTree = "<group>"; };
+		3AE73E691832A65700AD06AD /* LakeRotorua.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeRotorua.JPG; sourceTree = "<group>"; };
+		3AE73E6A1832A65700AD06AD /* MarlboroughSounds.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarlboroughSounds.JPG; sourceTree = "<group>"; };
+		3AE73E6B1832A65700AD06AD /* MarlboroughSounds2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarlboroughSounds2.JPG; sourceTree = "<group>"; };
+		3AE73E6C1832A65700AD06AD /* MilfordSound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MilfordSound.jpg; sourceTree = "<group>"; };
+		3AE73E6D1832A65700AD06AD /* MilfordSound2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MilfordSound2.jpg; sourceTree = "<group>"; };
+		3AE73E6E1832A65700AD06AD /* MountMaunganui.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MountMaunganui.JPG; sourceTree = "<group>"; };
+		3AE73E6F1832A65700AD06AD /* MountMaunganui2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MountMaunganui2.JPG; sourceTree = "<group>"; };
+		3AE73E701832A65700AD06AD /* OldCromwellTown.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OldCromwellTown.JPG; sourceTree = "<group>"; };
+		3AE73E711832A65700AD06AD /* PihaBeach.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PihaBeach.JPG; sourceTree = "<group>"; };
+		3AE73E721832A65700AD06AD /* PihaWaterfall.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PihaWaterfall.JPG; sourceTree = "<group>"; };
+		3AE73E731832A65700AD06AD /* PrincessBayParkplatz.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrincessBayParkplatz.JPG; sourceTree = "<group>"; };
+		3AE73E741832A65700AD06AD /* Queenstown.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queenstown.JPG; sourceTree = "<group>"; };
+		3AE73E751832A65700AD06AD /* QueenstownJetboat.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QueenstownJetboat.JPG; sourceTree = "<group>"; };
+		3AE73E761832A65700AD06AD /* RailwayStationDunedin.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RailwayStationDunedin.JPG; sourceTree = "<group>"; };
+		3AE73E771832A65700AD06AD /* ruhigerStrand.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ruhigerStrand.JPG; sourceTree = "<group>"; };
+		3AE73E781832A65700AD06AD /* TongariroCrossing.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TongariroCrossing.JPG; sourceTree = "<group>"; };
+		3AE73E791832A65700AD06AD /* WaiOTapuThermalWonderland.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WaiOTapuThermalWonderland.JPG; sourceTree = "<group>"; };
+		3AE73E7A1832A65700AD06AD /* WanakaLakeHawea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WanakaLakeHawea.jpg; sourceTree = "<group>"; };
+		3AE73E7B1832A65700AD06AD /* WanakaPuzzlingWorld.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WanakaPuzzlingWorld.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,7 +265,7 @@
 		3A06DC5A1823FD8D009AE70B = {
 			isa = PBXGroup;
 			children = (
-				3AE73DF2183287A100AD06AD /* PhotosNZ */,
+				3AE73E4B1832A65700AD06AD /* PhotosNZ */,
 				3A06DC6C1823FD8D009AE70B /* NZTravellerApp */,
 				3A06DCC2182438A9009AE70B /* icons */,
 				3A06DCB918242904009AE70B /* screenshots */,
@@ -406,53 +414,57 @@
 			path = icons;
 			sourceTree = "<group>";
 		};
-		3AE73DF2183287A100AD06AD /* PhotosNZ */ = {
+		3AE73E4B1832A65700AD06AD /* PhotosNZ */ = {
 			isa = PBXGroup;
 			children = (
-				3AE73DF3183287A100AD06AD /* Arataki Visitor Centre.JPG */,
-				3AE73DF4183287A100AD06AD /* Baldwind St (Steilste Str).JPG */,
-				3AE73DF5183287A100AD06AD /* BethellsBeach.jpg */,
-				3AE73DF6183287A100AD06AD /* Cape Palliser LightHouse.JPG */,
-				3AE73DF7183287A100AD06AD /* Cape Palliser Seal Colony.JPG */,
-				3AE73DF8183287A100AD06AD /* CapeReinga.JPG */,
-				3AE73DF9183287A100AD06AD /* CathedralCove.JPG */,
-				3AE73DFA183287A100AD06AD /* East Cape 2.JPG */,
-				3AE73DFB183287A100AD06AD /* East Cape.JPG */,
-				3AE73DFC183287A100AD06AD /* Franz Josef Glacier.jpg */,
-				3AE73DFD183287A100AD06AD /* Glenorchy Walkway.JPG */,
-				3AE73DFE183287A100AD06AD /* Glenorchy:Otago 2.JPG */,
-				3AE73DFF183287A100AD06AD /* Glenorchy:Otago.JPG */,
-				3AE73E00183287A100AD06AD /* Glenorchy:Weg zum Diamond Lake.JPG */,
-				3AE73E01183287A100AD06AD /* Haast Highway 2.JPG */,
-				3AE73E02183287A100AD06AD /* Haast Highway 3.JPG */,
-				3AE73E03183287A100AD06AD /* Haast Highway Blue Pools.jpg */,
-				3AE73E04183287A100AD06AD /* Haast Highway.JPG */,
-				3AE73E05183287A100AD06AD /* HamiltonGardens.JPG */,
-				3AE73E06183287A100AD06AD /* Harcourt Park.JPG */,
-				3AE73E07183287A100AD06AD /* HotWaterBeach.JPG */,
-				3AE73E08183287A100AD06AD /* Hundertwassertoiletten.JPG */,
-				3AE73E09183287A100AD06AD /* Kaikoura.JPG */,
-				3AE73E0A183287A100AD06AD /* Kaitoke Regional Park.JPG */,
-				3AE73E0B183287A100AD06AD /* Karikari Estate Weingut.JPG */,
-				3AE73E0C183287A100AD06AD /* Kinloch.JPG */,
-				3AE73E0D183287A100AD06AD /* Lake Marian.jpg */,
-				3AE73E0E183287A100AD06AD /* LakeRotorua.JPG */,
-				3AE73E0F183287A100AD06AD /* Marlborough Sounds 2.JPG */,
-				3AE73E10183287A100AD06AD /* Marlborough Sounds.JPG */,
-				3AE73E11183287A100AD06AD /* Milford Sound 2.jpg */,
-				3AE73E12183287A100AD06AD /* Mount Maunganui 2.JPG */,
-				3AE73E13183287A100AD06AD /* Mount Maunganui.JPG */,
-				3AE73E14183287A100AD06AD /* Old Cromwell Town.JPG */,
-				3AE73E15183287A100AD06AD /* PihaBeach.JPG */,
-				3AE73E16183287A100AD06AD /* PihaWaterfall.JPG */,
-				3AE73E17183287A100AD06AD /* Princess Bay Parkplatz.JPG */,
-				3AE73E18183287A100AD06AD /* Queenstown Jetboat.JPG */,
-				3AE73E19183287A100AD06AD /* Queenstown.JPG */,
-				3AE73E1A183287A100AD06AD /* Railway Station Dunedin.JPG */,
-				3AE73E1B183287A100AD06AD /* ruhigerStrand.JPG */,
-				3AE73E1C183287A100AD06AD /* TongariroCrossing.JPG */,
-				3AE73E1D183287A100AD06AD /* Wai-O-Tapu Thermal Wonderland.JPG */,
-				3AE73E1E183287A100AD06AD /* Wanaka Puzzling World.JPG */,
+				3AE73E4C1832A65700AD06AD /* AratakiVisitorCentre.JPG */,
+				3AE73E4D1832A65700AD06AD /* BaldwinSt.JPG */,
+				3AE73E4E1832A65700AD06AD /* BethellsBeach.jpg */,
+				3AE73E4F1832A65700AD06AD /* CapePalliserLightHouse.JPG */,
+				3AE73E501832A65700AD06AD /* CapePalliserSealColony.JPG */,
+				3AE73E511832A65700AD06AD /* CapeReinga.JPG */,
+				3AE73E521832A65700AD06AD /* CathedralCove.JPG */,
+				3AE73E531832A65700AD06AD /* EastCape.JPG */,
+				3AE73E541832A65700AD06AD /* EastCape2.JPG */,
+				3AE73E551832A65700AD06AD /* FranzJosefGlacier.jpg */,
+				3AE73E561832A65700AD06AD /* GlenorchyOtago.JPG */,
+				3AE73E571832A65700AD06AD /* GlenorchyOtago2.JPG */,
+				3AE73E581832A65700AD06AD /* GlenorchyWalkway.JPG */,
+				3AE73E591832A65700AD06AD /* GlenorchyWegzumDiamondLake.JPG */,
+				3AE73E5A1832A65700AD06AD /* HaastHighway.JPG */,
+				3AE73E5B1832A65700AD06AD /* HaastHighway2.JPG */,
+				3AE73E5C1832A65700AD06AD /* HaastHighway3.JPG */,
+				3AE73E5D1832A65700AD06AD /* HaastHighwayBluePools.jpg */,
+				3AE73E5E1832A65700AD06AD /* HaastHighwayPancakeRocks.jpg */,
+				3AE73E5F1832A65700AD06AD /* HaastHighwayPancakeRocks2.jpg */,
+				3AE73E601832A65700AD06AD /* HamiltonGardens.JPG */,
+				3AE73E611832A65700AD06AD /* HarcourtPark.JPG */,
+				3AE73E621832A65700AD06AD /* HotWaterBeach.JPG */,
+				3AE73E631832A65700AD06AD /* Hundertwassertoiletten.JPG */,
+				3AE73E641832A65700AD06AD /* Kaikoura.JPG */,
+				3AE73E651832A65700AD06AD /* KaitokeRegionalPark.JPG */,
+				3AE73E661832A65700AD06AD /* KarikariEstateWeingut.JPG */,
+				3AE73E671832A65700AD06AD /* Kinloch.JPG */,
+				3AE73E681832A65700AD06AD /* LakeMarian.jpg */,
+				3AE73E691832A65700AD06AD /* LakeRotorua.JPG */,
+				3AE73E6A1832A65700AD06AD /* MarlboroughSounds.JPG */,
+				3AE73E6B1832A65700AD06AD /* MarlboroughSounds2.JPG */,
+				3AE73E6C1832A65700AD06AD /* MilfordSound.jpg */,
+				3AE73E6D1832A65700AD06AD /* MilfordSound2.jpg */,
+				3AE73E6E1832A65700AD06AD /* MountMaunganui.JPG */,
+				3AE73E6F1832A65700AD06AD /* MountMaunganui2.JPG */,
+				3AE73E701832A65700AD06AD /* OldCromwellTown.JPG */,
+				3AE73E711832A65700AD06AD /* PihaBeach.JPG */,
+				3AE73E721832A65700AD06AD /* PihaWaterfall.JPG */,
+				3AE73E731832A65700AD06AD /* PrincessBayParkplatz.JPG */,
+				3AE73E741832A65700AD06AD /* Queenstown.JPG */,
+				3AE73E751832A65700AD06AD /* QueenstownJetboat.JPG */,
+				3AE73E761832A65700AD06AD /* RailwayStationDunedin.JPG */,
+				3AE73E771832A65700AD06AD /* ruhigerStrand.JPG */,
+				3AE73E781832A65700AD06AD /* TongariroCrossing.JPG */,
+				3AE73E791832A65700AD06AD /* WaiOTapuThermalWonderland.JPG */,
+				3AE73E7A1832A65700AD06AD /* WanakaLakeHawea.jpg */,
+				3AE73E7B1832A65700AD06AD /* WanakaPuzzlingWorld.JPG */,
 			);
 			path = PhotosNZ;
 			sourceTree = "<group>";
@@ -533,85 +545,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE73E32183287A100AD06AD /* Harcourt Park.JPG in Resources */,
 				3A06DCBE18242904009AE70B /* first.png in Resources */,
-				3AE73E42183287A100AD06AD /* PihaWaterfall.JPG in Resources */,
-				3AE73E3E183287A100AD06AD /* Mount Maunganui 2.JPG in Resources */,
+				3AE73EA81832A65700AD06AD /* TongariroCrossing.JPG in Resources */,
+				3AE73E7C1832A65700AD06AD /* AratakiVisitorCentre.JPG in Resources */,
 				3A06DCB818240809009AE70B /* Star.png in Resources */,
-				3AE73E23183287A100AD06AD /* Cape Palliser Seal Colony.JPG in Resources */,
-				3AE73E2C183287A100AD06AD /* Glenorchy:Weg zum Diamond Lake.JPG in Resources */,
-				3AE73E48183287A100AD06AD /* TongariroCrossing.JPG in Resources */,
+				3AE73E9E1832A65700AD06AD /* MountMaunganui.JPG in Resources */,
 				3A06DCB1182401D7009AE70B /* photo4.png in Resources */,
-				3AE73E2A183287A100AD06AD /* Glenorchy:Otago 2.JPG in Resources */,
-				3AE73E2F183287A100AD06AD /* Haast Highway Blue Pools.jpg in Resources */,
-				3AE73E35183287A100AD06AD /* Kaikoura.JPG in Resources */,
+				3AE73EA71832A65700AD06AD /* ruhigerStrand.JPG in Resources */,
 				3A06DCCD182438A9009AE70B /* Icon-Small-50.png in Resources */,
-				3AE73E4A183287A100AD06AD /* Wanaka Puzzling World.JPG in Resources */,
+				3AE73EA21832A65700AD06AD /* PihaWaterfall.JPG in Resources */,
+				3AE73E7D1832A65700AD06AD /* BaldwinSt.JPG in Resources */,
+				3AE73EA91832A65700AD06AD /* WaiOTapuThermalWonderland.JPG in Resources */,
 				3A06DCAF182401D7009AE70B /* photo2.png in Resources */,
 				3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */,
+				3AE73E991832A65700AD06AD /* LakeRotorua.JPG in Resources */,
+				3AE73E7E1832A65700AD06AD /* BethellsBeach.jpg in Resources */,
 				3A06DCDE18243C0E009AE70B /* Icon76pt.png in Resources */,
 				3A06DCBF18242904009AE70B /* gallery.png in Resources */,
-				3AE73E21183287A100AD06AD /* BethellsBeach.jpg in Resources */,
 				3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */,
+				3AE73EA51832A65700AD06AD /* QueenstownJetboat.JPG in Resources */,
+				3AE73E811832A65700AD06AD /* CapeReinga.JPG in Resources */,
 				3A06DCD0182438A9009AE70B /* Icon-Small@2x.png in Resources */,
-				3AE73E3F183287A100AD06AD /* Mount Maunganui.JPG in Resources */,
-				3AE73E24183287A100AD06AD /* CapeReinga.JPG in Resources */,
-				3AE73E33183287A100AD06AD /* HotWaterBeach.JPG in Resources */,
 				3A06DCCC182438A9009AE70B /* Icon-72@2x.png in Resources */,
-				3AE73E30183287A100AD06AD /* Haast Highway.JPG in Resources */,
-				3AE73E39183287A100AD06AD /* Lake Marian.jpg in Resources */,
+				3AE73EA11832A65700AD06AD /* PihaBeach.JPG in Resources */,
 				3A06DCD1182438A9009AE70B /* Icon.png in Resources */,
-				3AE73E3B183287A100AD06AD /* Marlborough Sounds 2.JPG in Resources */,
-				3AE73E36183287A100AD06AD /* Kaitoke Regional Park.JPG in Resources */,
 				3A06DCD2182438A9009AE70B /* Icon@2x.png in Resources */,
-				3AE73E38183287A100AD06AD /* Kinloch.JPG in Resources */,
+				3AE73E821832A65700AD06AD /* CathedralCove.JPG in Resources */,
+				3AE73E981832A65700AD06AD /* LakeMarian.jpg in Resources */,
 				3A06DCB3182401D7009AE70B /* slow.png in Resources */,
-				3AE73E25183287A100AD06AD /* CathedralCove.JPG in Resources */,
-				3AE73E27183287A100AD06AD /* East Cape.JPG in Resources */,
 				3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */,
-				3AE73E3C183287A100AD06AD /* Marlborough Sounds.JPG in Resources */,
+				3AE73E8E1832A65700AD06AD /* HaastHighwayPancakeRocks.jpg in Resources */,
 				3A06DCDF18243C0E009AE70B /* Icon76pt@2x.png in Resources */,
-				3AE73E45183287A100AD06AD /* Queenstown.JPG in Resources */,
-				3AE73E34183287A100AD06AD /* Hundertwassertoiletten.JPG in Resources */,
-				3AE73E47183287A100AD06AD /* ruhigerStrand.JPG in Resources */,
-				3AE73E3A183287A100AD06AD /* LakeRotorua.JPG in Resources */,
+				3AE73E9A1832A65700AD06AD /* MarlboroughSounds.JPG in Resources */,
+				3AE73E9B1832A65700AD06AD /* MarlboroughSounds2.JPG in Resources */,
 				3A06DCDB18243B6D009AE70B /* Icon60pt@2x.png in Resources */,
+				3AE73E8F1832A65700AD06AD /* HaastHighwayPancakeRocks2.jpg in Resources */,
+				3AE73EA61832A65700AD06AD /* RailwayStationDunedin.JPG in Resources */,
 				3AAE21BC182C18EA007C6AB8 /* CoreDataTutorial2.sqlite in Resources */,
+				3AE73EA01832A65700AD06AD /* OldCromwellTown.JPG in Resources */,
+				3AE73E831832A65700AD06AD /* EastCape.JPG in Resources */,
+				3AE73E941832A65700AD06AD /* Kaikoura.JPG in Resources */,
+				3AE73E7F1832A65700AD06AD /* CapePalliserLightHouse.JPG in Resources */,
 				3A06DCE318244222009AE70B /* NewZealandMapM.png in Resources */,
+				3AE73E801832A65700AD06AD /* CapePalliserSealColony.JPG in Resources */,
+				3AE73E851832A65700AD06AD /* FranzJosefGlacier.jpg in Resources */,
 				3A06DCCE182438A9009AE70B /* Icon-Small-50@2x.png in Resources */,
+				3AE73E841832A65700AD06AD /* EastCape2.JPG in Resources */,
+				3AE73E881832A65700AD06AD /* GlenorchyWalkway.JPG in Resources */,
+				3AE73EAB1832A65700AD06AD /* WanakaPuzzlingWorld.JPG in Resources */,
 				3A06DCAE182401D7009AE70B /* photo1.png in Resources */,
+				3AE73E871832A65700AD06AD /* GlenorchyOtago2.JPG in Resources */,
 				3A06DCE118244195009AE70B /* NewZealandMapK.png in Resources */,
-				3AE73E29183287A100AD06AD /* Glenorchy Walkway.JPG in Resources */,
-				3AE73E43183287A100AD06AD /* Princess Bay Parkplatz.JPG in Resources */,
 				3A06DC7F1823FD8D009AE70B /* Images.xcassets in Resources */,
-				3AE73E1F183287A100AD06AD /* Arataki Visitor Centre.JPG in Resources */,
-				3AE73E3D183287A100AD06AD /* Milford Sound 2.jpg in Resources */,
-				3AE73E26183287A100AD06AD /* East Cape 2.JPG in Resources */,
+				3AE73E9D1832A65700AD06AD /* MilfordSound2.jpg in Resources */,
 				3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */,
-				3AE73E2B183287A100AD06AD /* Glenorchy:Otago.JPG in Resources */,
 				3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */,
-				3AE73E46183287A100AD06AD /* Railway Station Dunedin.JPG in Resources */,
-				3AE73E2E183287A100AD06AD /* Haast Highway 3.JPG in Resources */,
-				3AE73E44183287A100AD06AD /* Queenstown Jetboat.JPG in Resources */,
+				3AE73E8B1832A65700AD06AD /* HaastHighway2.JPG in Resources */,
+				3AE73E891832A65700AD06AD /* GlenorchyWegzumDiamondLake.JPG in Resources */,
+				3AE73E9F1832A65700AD06AD /* MountMaunganui2.JPG in Resources */,
 				3A06DCC118242904009AE70B /* map.png in Resources */,
 				3A06DCB2182401D7009AE70B /* photo5.png in Resources */,
-				3AE73E2D183287A100AD06AD /* Haast Highway 2.JPG in Resources */,
+				3AE73EA41832A65700AD06AD /* Queenstown.JPG in Resources */,
 				3A06DCD618243AA5009AE70B /* Icon-Med@2x.png in Resources */,
+				3AE73E8D1832A65700AD06AD /* HaastHighwayBluePools.jpg in Resources */,
+				3AE73E971832A65700AD06AD /* Kinloch.JPG in Resources */,
 				3A06DCC018242904009AE70B /* information.png in Resources */,
-				3AE73E37183287A100AD06AD /* Karikari Estate Weingut.JPG in Resources */,
+				3AE73E961832A65700AD06AD /* KarikariEstateWeingut.JPG in Resources */,
 				3A06DCD518243AA5009AE70B /* Icon-Med.png in Resources */,
+				3AE73E8A1832A65700AD06AD /* HaastHighway.JPG in Resources */,
 				3A06DC711823FD8D009AE70B /* InfoPlist.strings in Resources */,
+				3AE73EAA1832A65700AD06AD /* WanakaLakeHawea.jpg in Resources */,
+				3AE73E951832A65700AD06AD /* KaitokeRegionalPark.JPG in Resources */,
+				3AE73EA31832A65700AD06AD /* PrincessBayParkplatz.JPG in Resources */,
+				3AE73E9C1832A65700AD06AD /* MilfordSound.jpg in Resources */,
+				3AE73E921832A65700AD06AD /* HotWaterBeach.JPG in Resources */,
+				3AE73E911832A65700AD06AD /* HarcourtPark.JPG in Resources */,
 				3A06DCD918243B2F009AE70B /* Icon60pt.png in Resources */,
-				3AE73E41183287A100AD06AD /* PihaBeach.JPG in Resources */,
-				3AE73E40183287A100AD06AD /* Old Cromwell Town.JPG in Resources */,
+				3AE73E901832A65700AD06AD /* HamiltonGardens.JPG in Resources */,
 				3A06DCCB182438A9009AE70B /* Icon-72.png in Resources */,
-				3AE73E49183287A100AD06AD /* Wai-O-Tapu Thermal Wonderland.JPG in Resources */,
-				3AE73E20183287A100AD06AD /* Baldwind St (Steilste Str).JPG in Resources */,
 				3A06DCB0182401D7009AE70B /* photo3.png in Resources */,
+				3AE73E8C1832A65700AD06AD /* HaastHighway3.JPG in Resources */,
+				3AE73E931832A65700AD06AD /* Hundertwassertoiletten.JPG in Resources */,
+				3AE73E861832A65700AD06AD /* GlenorchyOtago.JPG in Resources */,
 				3A06DC7A1823FD8D009AE70B /* Main.storyboard in Resources */,
-				3AE73E28183287A100AD06AD /* Franz Josef Glacier.jpg in Resources */,
-				3AE73E31183287A100AD06AD /* HamiltonGardens.JPG in Resources */,
-				3AE73E22183287A100AD06AD /* Cape Palliser LightHouse.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

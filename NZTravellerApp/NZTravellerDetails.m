@@ -13,6 +13,7 @@
 @implementation NZTravellerDetails
 
 @dynamic descrText;
+@dynamic coordinates;
 @dynamic rating;
 @dynamic photoName;
 @dynamic info;
