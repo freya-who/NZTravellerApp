@@ -113,49 +113,7 @@
     [fetchRequest setEntity:entityDetail];
     self.nzTravellerDetail = [_managedObjectContext executeFetchRequest:fetchRequest error:&error];
     
-    
-    //self.photoView = [[UIView alloc] initWithFrame:CGRectMake(20, 300, 280, 156)];
-    //[self.view addSubview:photoView];
-    
-    
-    /*
-    NZTravellerPOI* poi = [nzTravellerPOI objectAtIndex:_detailIndex];
-    NZTravellerDetails* detail = [nzTravellerDetail objectAtIndex:_detailIndex];
-    
-    self.detailDescriptionLabel.text = detail.descrText;
-    self.title = poi.name;
-    
-    
-    self.images = [[NSMutableArray alloc] init];
-    _nameArray = [detail.photoName componentsSeparatedByString:@","];
-    for (int i=0; i<[_nameArray count]; i++) {
-        NSString *imgName = [_nameArray objectAtIndex:i];
-        UIImage *img = [UIImage imageNamed:imgName];
-        [self.images addObject:img];
-    }
-    */
-    /*
-     float hP = self.photoView.frame.size.height;
-     float wP = self.photoView.frame.size.width;
-     float xP = self.photoView.frame.origin.x;
-     float yP = self.photoView.frame.origin.y;
-     */
-    
-    /*
-    UIImageView *imgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"HaastHighway.JPG"]];
-    //[imgV setFrame:CGRectInset(self.photoView.bounds, 0, 0)];
-    imgV.frame = self.photoView.bounds;
-    UIButton *newPhoto = [UIButton buttonWithType:UIButtonTypeCustom];
-    [newPhoto setImage:[self.images objectAtIndex:0] forState:UIControlStateNormal];
-    newPhoto.frame = self.photoView.frame;
-    [self.photoView addSubview:imgV];
-    */
-
-    
-    NSLog(@"%@", NSStringFromCGRect(self.photoView.frame));
-    NSLog(@"%@", NSStringFromCGRect(self.photoView.bounds));
-    
-   [self configureView];
+    [self configureView];
 }
 
 

@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomScrollViewController : UIViewController <UIScrollViewDelegate> {
-    //IBOutlet UIButton *buttonMtM;
-    //IBOutlet UIButton *buttonKari;
     UIImage *nzMap;
 }
 
@@ -19,10 +17,5 @@
 @property (nonatomic,strong) NSManagedObjectContext* managedObjectContext; //DB
 @property (nonatomic, strong) NSArray *nzTravellerPOI;
 @property (nonatomic, strong) UIImage *nzMap;
-
-//-(IBAction)pressedMtM:(id)sender;
-//-(IBAction)pressedKari:(id)sender;
-
-//- (void)makeButtons:(NSMutableArray *)myarray;
 
 @end

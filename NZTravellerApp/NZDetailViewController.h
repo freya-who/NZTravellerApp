@@ -19,7 +19,5 @@
 
 @property (nonatomic, strong) IBOutlet UIView *photoView;
 
-//@property (nonatomic, strong) IBOutlet UIView *photoView;
-
 
 @end

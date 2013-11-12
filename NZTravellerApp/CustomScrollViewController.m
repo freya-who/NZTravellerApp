@@ -159,21 +159,6 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     self.nzTravellerPOI = [_managedObjectContext executeFetchRequest:fetchRequest error:&error];
     self.title = @"New Zealand";
     
-    /*
-    NZTravellerPOI* poi1 = [nzTravellerPOI objectAtIndex:0];
-    NSLog(@"%@",poi1.name);
-    NSLog(@"%@",poi1.xLoc);
-    */
-    
-    /*
-    //setUp Matrix that holds info for now, to be replaced with Core Data
-    nzPOI = [[NSMutableArray alloc] initWithCapacity: 3];
-    
-    [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Mt. Maunganui",[NSNumber numberWithFloat:0.7],[NSNumber numberWithFloat:0.28],nil] atIndex:0];
-    [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Karikari",[NSNumber numberWithFloat:0.69],[NSNumber numberWithFloat:0.23],nil] atIndex:1];
-    [nzPOI insertObject:[NSMutableArray arrayWithObjects:@"Blue Pools",[NSNumber numberWithFloat:0.5],[NSNumber numberWithFloat:0.3],nil] atIndex:2];
-    */
-    
     //setup container view that will hold map image, labels and buttons
     nzMap = [UIImage imageNamed:@"NewZealandMapKMM.png"];
     
