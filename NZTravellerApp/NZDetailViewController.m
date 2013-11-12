@@ -44,7 +44,7 @@
     NZTravellerDetails* detail = [nzTravellerDetail objectAtIndex:_detailIndex];
     
     self.detailDescriptionLabel.text = detail.descrText;
-    self.nameLabel.text = poi.name;
+    self.title = poi.name;
     
 
     self.pageImages = [[NSMutableArray alloc] init];
@@ -115,31 +115,15 @@
         frame.origin.y = 0.0f;
         frame = CGRectInset(frame, 10.0f, 0.0f);
         
-        /*
-        UIImageView *newPageView = [[UIImageView alloc] initWithImage:[self.pageImages objectAtIndex:page]];
-        newPageView.contentMode = UIViewContentModeScaleAspectFit;
-        newPageView.frame = frame;
-        [self.scrollView addSubview:newPageView];
-        [self.pageViews replaceObjectAtIndex:page withObject:newPageView];
-        */
-        
         UIButton *newPageView = [UIButton buttonWithType:UIButtonTypeCustom];
         [newPageView setImage:[self.pageImages objectAtIndex:page] forState:UIControlStateNormal];
-        newPageView.contentMode = UIViewContentModeScaleAspectFit;
         newPageView.frame = frame;
+        newPageView.contentHorizontalAlignment = UIControlContentHorizontalAlignmentFill;
         newPageView.tag = page;
         [newPageView addTarget:self action:@selector(pressedImage:) forControlEvents:UIControlEventTouchUpInside];
         [self.scrollView addSubview:newPageView];
         [self.pageViews replaceObjectAtIndex:page withObject:newPageView];
-        
-        /*
-        UIButton *poiButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [poiButton setImage:starIm forState:UIControlStateNormal];
-        poiButton.frame = (CGRect){.origin = poiPoint,.size = starSize};
-        poiButton.tag = i;
-        [poiButton addTarget:self action:@selector(pressedStar:) forControlEvents:UIControlEventTouchUpInside];
-        [self.containerView addSubview:poiButton];
-         */
+
     }
 }
 
