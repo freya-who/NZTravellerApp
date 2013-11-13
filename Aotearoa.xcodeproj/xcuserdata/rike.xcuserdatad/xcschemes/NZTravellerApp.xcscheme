@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A06DC621823FD8D009AE70B"
-               BuildableName = "NZTravellerApp.app"
-               BlueprintName = "NZTravellerApp"
-               ReferencedContainer = "container:NZTravellerApp.xcodeproj">
+               BuildableName = "Aotearoa.app"
+               BlueprintName = "Aotearoa"
+               ReferencedContainer = "container:Aotearoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A06DC831823FD8D009AE70B"
-               BuildableName = "NZTravellerAppTests.xctest"
-               BlueprintName = "NZTravellerAppTests"
-               ReferencedContainer = "container:NZTravellerApp.xcodeproj">
+               BuildableName = "AotearoaTests.xctest"
+               BlueprintName = "AotearoaTests"
+               ReferencedContainer = "container:Aotearoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A06DC621823FD8D009AE70B"
-            BuildableName = "NZTravellerApp.app"
-            BlueprintName = "NZTravellerApp"
-            ReferencedContainer = "container:NZTravellerApp.xcodeproj">
+            BuildableName = "Aotearoa.app"
+            BlueprintName = "Aotearoa"
+            ReferencedContainer = "container:Aotearoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A06DC621823FD8D009AE70B"
-            BuildableName = "NZTravellerApp.app"
-            BlueprintName = "NZTravellerApp"
-            ReferencedContainer = "container:NZTravellerApp.xcodeproj">
+            BuildableName = "Aotearoa.app"
+            BlueprintName = "Aotearoa"
+            ReferencedContainer = "container:Aotearoa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A06DC621823FD8D009AE70B"
-            BuildableName = "NZTravellerApp.app"
-            BlueprintName = "NZTravellerApp"
-            ReferencedContainer = "container:NZTravellerApp.xcodeproj">
+            BuildableName = "Aotearoa.app"
+            BlueprintName = "Aotearoa"
+            ReferencedContainer = "container:Aotearoa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

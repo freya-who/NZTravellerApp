@@ -22,12 +22,6 @@
 		3A06DC921823FD8D009AE70B /* NZTravellerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */; };
 		3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */; };
 		3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DCA51823FE64009AE70B /* ScrollViewController.m */; };
-		3A06DCAE182401D7009AE70B /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA8182401D7009AE70B /* photo1.png */; };
-		3A06DCAF182401D7009AE70B /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCA9182401D7009AE70B /* photo2.png */; };
-		3A06DCB0182401D7009AE70B /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAA182401D7009AE70B /* photo3.png */; };
-		3A06DCB1182401D7009AE70B /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAB182401D7009AE70B /* photo4.png */; };
-		3A06DCB2182401D7009AE70B /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAC182401D7009AE70B /* photo5.png */; };
-		3A06DCB3182401D7009AE70B /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCAD182401D7009AE70B /* slow.png */; };
 		3A06DCB6182401DF009AE70B /* NewZealandMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCB5182401DF009AE70B /* NewZealandMap.png */; };
 		3A06DCB818240809009AE70B /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCB718240809009AE70B /* Star.png */; };
 		3A06DCBE18242904009AE70B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCBA18242904009AE70B /* first.png */; };
@@ -53,10 +47,11 @@
 		3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */; };
 		3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE618244360009AE70B /* NewZealandMapKMM.png */; };
 		3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */; };
+		3A2DF67918340F5800BD0CDE /* NZCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */; };
+		3A2DF67B1834137000BD0CDE /* starEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF67A1834137000BD0CDE /* starEmpty.png */; };
 		3A55BFBA182AB4C5007D0B40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55BFB9182AB4C5007D0B40 /* CoreData.framework */; };
 		3A55BFBD182AB714007D0B40 /* NZTravellerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */; };
 		3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C015182AC97A007D0B40 /* FirstTableViewController.m */; };
-		3A97B5811832F433002F77CD /* NZCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3A97B5801832F433002F77CD /* NZCoreData.sqlite */; };
 		3A97B5B21832F484002F77CD /* AratakiVisitorCentre.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3A97B5821832F484002F77CD /* AratakiVisitorCentre.JPG */; };
 		3A97B5B31832F484002F77CD /* BaldwinSt.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3A97B5831832F484002F77CD /* BaldwinSt.JPG */; };
 		3A97B5B41832F484002F77CD /* BethellsBeach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A97B5841832F484002F77CD /* BethellsBeach.jpg */; };
@@ -122,33 +117,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A06DC631823FD8D009AE70B /* NZTravellerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZTravellerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A06DC631823FD8D009AE70B /* Aotearoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aotearoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A06DC661823FD8D009AE70B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A06DC681823FD8D009AE70B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3A06DC6A1823FD8D009AE70B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3A06DC6E1823FD8D009AE70B /* NZTravellerApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZTravellerApp-Info.plist"; sourceTree = "<group>"; };
+		3A06DC6E1823FD8D009AE70B /* Aotearoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aotearoa-Info.plist"; sourceTree = "<group>"; };
 		3A06DC701823FD8D009AE70B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A06DC721823FD8D009AE70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A06DC741823FD8D009AE70B /* NZTravellerApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NZTravellerApp-Prefix.pch"; sourceTree = "<group>"; };
+		3A06DC741823FD8D009AE70B /* Aotearoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aotearoa-Prefix.pch"; sourceTree = "<group>"; };
 		3A06DC751823FD8D009AE70B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A06DC761823FD8D009AE70B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A06DC791823FD8D009AE70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A06DC7E1823FD8D009AE70B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3A06DC841823FD8D009AE70B /* NZTravellerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZTravellerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A06DC841823FD8D009AE70B /* AotearoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AotearoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A06DC851823FD8D009AE70B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3A06DC8D1823FD8D009AE70B /* NZTravellerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZTravellerAppTests-Info.plist"; sourceTree = "<group>"; };
+		3A06DC8D1823FD8D009AE70B /* AotearoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AotearoaTests-Info.plist"; sourceTree = "<group>"; };
 		3A06DC8F1823FD8D009AE70B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A06DC911823FD8D009AE70B /* NZTravellerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZTravellerAppTests.m; sourceTree = "<group>"; };
 		3A06DC9B1823FDF0009AE70B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
 		3A06DC9C1823FDF0009AE70B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 		3A06DCA41823FE64009AE70B /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
 		3A06DCA51823FE64009AE70B /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
-		3A06DCA8182401D7009AE70B /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
-		3A06DCA9182401D7009AE70B /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
-		3A06DCAA182401D7009AE70B /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
-		3A06DCAB182401D7009AE70B /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
-		3A06DCAC182401D7009AE70B /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
-		3A06DCAD182401D7009AE70B /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 		3A06DCB5182401DF009AE70B /* NewZealandMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMap.png; sourceTree = "<group>"; };
 		3A06DCB718240809009AE70B /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
 		3A06DCBA18242904009AE70B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -174,11 +163,12 @@
 		3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKM.png; sourceTree = "<group>"; };
 		3A06DCE618244360009AE70B /* NewZealandMapKMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKMM.png; sourceTree = "<group>"; };
 		3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealandMap.pdf; sourceTree = "<group>"; };
+		3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NZCoreData.sqlite; sourceTree = "<group>"; };
+		3A2DF67A1834137000BD0CDE /* starEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starEmpty.png; sourceTree = "<group>"; };
 		3A55BFB9182AB4C5007D0B40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3A55BFBC182AB714007D0B40 /* NZTravellerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NZTravellerApp.xcdatamodel; sourceTree = "<group>"; };
 		3A55C014182AC97A007D0B40 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		3A55C015182AC97A007D0B40 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
-		3A97B5801832F433002F77CD /* NZCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NZCoreData.sqlite; sourceTree = "<group>"; };
 		3A97B5821832F484002F77CD /* AratakiVisitorCentre.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AratakiVisitorCentre.JPG; sourceTree = "<group>"; };
 		3A97B5831832F484002F77CD /* BaldwinSt.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaldwinSt.JPG; sourceTree = "<group>"; };
 		3A97B5841832F484002F77CD /* BethellsBeach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BethellsBeach.jpg; sourceTree = "<group>"; };
@@ -270,7 +260,6 @@
 				3A06DCC2182438A9009AE70B /* icons */,
 				3A06DCB918242904009AE70B /* screenshots */,
 				3A06DCB4182401DF009AE70B /* Images */,
-				3A06DCA7182401D7009AE70B /* ScrollViewsResources */,
 				3A06DC8B1823FD8D009AE70B /* NZTravellerAppTests */,
 				3A06DC651823FD8D009AE70B /* Frameworks */,
 				3A06DC641823FD8D009AE70B /* Products */,
@@ -280,8 +269,8 @@
 		3A06DC641823FD8D009AE70B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A06DC631823FD8D009AE70B /* NZTravellerApp.app */,
-				3A06DC841823FD8D009AE70B /* NZTravellerAppTests.xctest */,
+				3A06DC631823FD8D009AE70B /* Aotearoa.app */,
+				3A06DC841823FD8D009AE70B /* AotearoaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,8 +291,8 @@
 			isa = PBXGroup;
 			children = (
 				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
-				3A97B5801832F433002F77CD /* NZCoreData.sqlite */,
 				3A06DC781823FD8D009AE70B /* Main.storyboard */,
+				3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */,
 				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
 				3AE73EAF1832A9C500AD06AD /* NZTravellerPOI.h */,
 				3AE73EB01832A9C500AD06AD /* NZTravellerPOI.m */,
@@ -329,10 +318,10 @@
 		3A06DC6D1823FD8D009AE70B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A06DC6E1823FD8D009AE70B /* NZTravellerApp-Info.plist */,
+				3A06DC6E1823FD8D009AE70B /* Aotearoa-Info.plist */,
 				3A06DC6F1823FD8D009AE70B /* InfoPlist.strings */,
 				3A06DC721823FD8D009AE70B /* main.m */,
-				3A06DC741823FD8D009AE70B /* NZTravellerApp-Prefix.pch */,
+				3A06DC741823FD8D009AE70B /* Aotearoa-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -349,29 +338,17 @@
 		3A06DC8C1823FD8D009AE70B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A06DC8D1823FD8D009AE70B /* NZTravellerAppTests-Info.plist */,
+				3A06DC8D1823FD8D009AE70B /* AotearoaTests-Info.plist */,
 				3A06DC8E1823FD8D009AE70B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3A06DCA7182401D7009AE70B /* ScrollViewsResources */ = {
-			isa = PBXGroup;
-			children = (
-				3A06DCA8182401D7009AE70B /* photo1.png */,
-				3A06DCA9182401D7009AE70B /* photo2.png */,
-				3A06DCAA182401D7009AE70B /* photo3.png */,
-				3A06DCAB182401D7009AE70B /* photo4.png */,
-				3A06DCAC182401D7009AE70B /* photo5.png */,
-				3A06DCAD182401D7009AE70B /* slow.png */,
-			);
-			path = ScrollViewsResources;
 			sourceTree = "<group>";
 		};
 		3A06DCB4182401DF009AE70B /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				3A06DCB718240809009AE70B /* Star.png */,
+				3A2DF67A1834137000BD0CDE /* starEmpty.png */,
 				3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */,
 				3A06DCE018244195009AE70B /* NewZealandMapK.png */,
 				3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */,
@@ -472,9 +449,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A06DC621823FD8D009AE70B /* NZTravellerApp */ = {
+		3A06DC621823FD8D009AE70B /* Aotearoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A06DC951823FD8D009AE70B /* Build configuration list for PBXNativeTarget "NZTravellerApp" */;
+			buildConfigurationList = 3A06DC951823FD8D009AE70B /* Build configuration list for PBXNativeTarget "Aotearoa" */;
 			buildPhases = (
 				3A06DC5F1823FD8D009AE70B /* Sources */,
 				3A06DC601823FD8D009AE70B /* Frameworks */,
@@ -484,14 +461,14 @@
 			);
 			dependencies = (
 			);
-			name = NZTravellerApp;
+			name = Aotearoa;
 			productName = NZTravellerApp;
-			productReference = 3A06DC631823FD8D009AE70B /* NZTravellerApp.app */;
+			productReference = 3A06DC631823FD8D009AE70B /* Aotearoa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A06DC831823FD8D009AE70B /* NZTravellerAppTests */ = {
+		3A06DC831823FD8D009AE70B /* AotearoaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A06DC981823FD8D009AE70B /* Build configuration list for PBXNativeTarget "NZTravellerAppTests" */;
+			buildConfigurationList = 3A06DC981823FD8D009AE70B /* Build configuration list for PBXNativeTarget "AotearoaTests" */;
 			buildPhases = (
 				3A06DC801823FD8D009AE70B /* Sources */,
 				3A06DC811823FD8D009AE70B /* Frameworks */,
@@ -502,9 +479,9 @@
 			dependencies = (
 				3A06DC8A1823FD8D009AE70B /* PBXTargetDependency */,
 			);
-			name = NZTravellerAppTests;
+			name = AotearoaTests;
 			productName = NZTravellerAppTests;
-			productReference = 3A06DC841823FD8D009AE70B /* NZTravellerAppTests.xctest */;
+			productReference = 3A06DC841823FD8D009AE70B /* AotearoaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -521,7 +498,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A06DC5E1823FD8D009AE70B /* Build configuration list for PBXProject "NZTravellerApp" */;
+			buildConfigurationList = 3A06DC5E1823FD8D009AE70B /* Build configuration list for PBXProject "Aotearoa" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -534,8 +511,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A06DC621823FD8D009AE70B /* NZTravellerApp */,
-				3A06DC831823FD8D009AE70B /* NZTravellerAppTests */,
+				3A06DC621823FD8D009AE70B /* Aotearoa */,
+				3A06DC831823FD8D009AE70B /* AotearoaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -550,13 +527,11 @@
 				3A97B5B21832F484002F77CD /* AratakiVisitorCentre.JPG in Resources */,
 				3A06DCB818240809009AE70B /* Star.png in Resources */,
 				3A97B5D41832F484002F77CD /* MountMaunganui.JPG in Resources */,
-				3A06DCB1182401D7009AE70B /* photo4.png in Resources */,
 				3A97B5DD1832F484002F77CD /* ruhigerStrand.JPG in Resources */,
 				3A06DCCD182438A9009AE70B /* Icon-Small-50.png in Resources */,
 				3A97B5D81832F484002F77CD /* PihaWaterfall.JPG in Resources */,
 				3A97B5B31832F484002F77CD /* BaldwinSt.JPG in Resources */,
 				3A97B5DF1832F484002F77CD /* WaiOTapuThermalWonderland.JPG in Resources */,
-				3A06DCAF182401D7009AE70B /* photo2.png in Resources */,
 				3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */,
 				3A97B5CF1832F484002F77CD /* LakeRotorua.JPG in Resources */,
 				3A97B5B41832F484002F77CD /* BethellsBeach.jpg in Resources */,
@@ -570,10 +545,10 @@
 				3A97B5D71832F484002F77CD /* PihaBeach.JPG in Resources */,
 				3A06DCD1182438A9009AE70B /* Icon.png in Resources */,
 				3A06DCD2182438A9009AE70B /* Icon@2x.png in Resources */,
+				3A2DF67B1834137000BD0CDE /* starEmpty.png in Resources */,
 				3A97B5B81832F484002F77CD /* CathedralCove.JPG in Resources */,
 				3A97B5CE1832F484002F77CD /* LakeMarian.jpg in Resources */,
-				3A06DCB3182401D7009AE70B /* slow.png in Resources */,
-				3A97B5811832F433002F77CD /* NZCoreData.sqlite in Resources */,
+				3A2DF67918340F5800BD0CDE /* NZCoreData.sqlite in Resources */,
 				3A97B5C41832F484002F77CD /* HaastHighwayPancakeRocks.jpg in Resources */,
 				3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */,
 				3A97B5D01832F484002F77CD /* MarlboroughSounds.JPG in Resources */,
@@ -593,7 +568,6 @@
 				3A97B5BA1832F484002F77CD /* EastCape2.JPG in Resources */,
 				3A97B5BE1832F484002F77CD /* GlenorchyWalkway.JPG in Resources */,
 				3A97B5E11832F484002F77CD /* WanakaPuzzlingWorld.JPG in Resources */,
-				3A06DCAE182401D7009AE70B /* photo1.png in Resources */,
 				3A97B5BD1832F484002F77CD /* GlenorchyOtago2.JPG in Resources */,
 				3A06DCE118244195009AE70B /* NewZealandMapK.png in Resources */,
 				3A06DC7F1823FD8D009AE70B /* Images.xcassets in Resources */,
@@ -604,7 +578,6 @@
 				3A97B5BF1832F484002F77CD /* GlenorchyWegzumDiamondLake.JPG in Resources */,
 				3A97B5D51832F484002F77CD /* MountMaunganui2.JPG in Resources */,
 				3A06DCC118242904009AE70B /* map.png in Resources */,
-				3A06DCB2182401D7009AE70B /* photo5.png in Resources */,
 				3A97B5DA1832F484002F77CD /* Queenstown.JPG in Resources */,
 				3A06DCD618243AA5009AE70B /* Icon-Med@2x.png in Resources */,
 				3A97B5C31832F484002F77CD /* HaastHighwayBluePools.jpg in Resources */,
@@ -623,7 +596,6 @@
 				3A06DCD918243B2F009AE70B /* Icon60pt.png in Resources */,
 				3A97B5C61832F484002F77CD /* HamiltonGardens.JPG in Resources */,
 				3A06DCCB182438A9009AE70B /* Icon-72.png in Resources */,
-				3A06DCB0182401D7009AE70B /* photo3.png in Resources */,
 				3A97B5C21832F484002F77CD /* HaastHighway3.JPG in Resources */,
 				3A97B5C91832F484002F77CD /* Hundertwassertoiletten.JPG in Resources */,
 				3A97B5BC1832F484002F77CD /* GlenorchyOtago.JPG in Resources */,
@@ -672,7 +644,7 @@
 /* Begin PBXTargetDependency section */
 		3A06DC8A1823FD8D009AE70B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A06DC621823FD8D009AE70B /* NZTravellerApp */;
+			target = 3A06DC621823FD8D009AE70B /* Aotearoa */;
 			targetProxy = 3A06DC891823FD8D009AE70B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -783,9 +755,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NZTravellerApp/NZTravellerApp-Prefix.pch";
-				INFOPLIST_FILE = "NZTravellerApp/NZTravellerApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NZTravellerApp/Aotearoa-Prefix.pch";
+				INFOPLIST_FILE = "NZTravellerApp/Aotearoa-Info.plist";
+				PRODUCT_NAME = Aotearoa;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -796,9 +768,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NZTravellerApp/NZTravellerApp-Prefix.pch";
-				INFOPLIST_FILE = "NZTravellerApp/NZTravellerApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NZTravellerApp/Aotearoa-Prefix.pch";
+				INFOPLIST_FILE = "NZTravellerApp/Aotearoa-Info.plist";
+				PRODUCT_NAME = Aotearoa;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -819,8 +791,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NZTravellerAppTests/NZTravellerAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NZTravellerAppTests/AotearoaTests-Info.plist";
+				PRODUCT_NAME = AotearoaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -838,8 +810,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NZTravellerApp/NZTravellerApp-Prefix.pch";
-				INFOPLIST_FILE = "NZTravellerAppTests/NZTravellerAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NZTravellerAppTests/AotearoaTests-Info.plist";
+				PRODUCT_NAME = AotearoaTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -848,7 +820,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A06DC5E1823FD8D009AE70B /* Build configuration list for PBXProject "NZTravellerApp" */ = {
+		3A06DC5E1823FD8D009AE70B /* Build configuration list for PBXProject "Aotearoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A06DC931823FD8D009AE70B /* Debug */,
@@ -857,7 +829,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A06DC951823FD8D009AE70B /* Build configuration list for PBXNativeTarget "NZTravellerApp" */ = {
+		3A06DC951823FD8D009AE70B /* Build configuration list for PBXNativeTarget "Aotearoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A06DC961823FD8D009AE70B /* Debug */,
@@ -866,7 +838,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A06DC981823FD8D009AE70B /* Build configuration list for PBXNativeTarget "NZTravellerAppTests" */ = {
+		3A06DC981823FD8D009AE70B /* Build configuration list for PBXNativeTarget "AotearoaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A06DC991823FD8D009AE70B /* Debug */,

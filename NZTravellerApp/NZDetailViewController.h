@@ -18,6 +18,9 @@
 @property (weak, nonatomic) IBOutlet UITextView *detailDescriptionLabel;
 
 @property (nonatomic, strong) IBOutlet UIView *photoView;
+@property (nonatomic, strong) IBOutlet UIView *ratingView;
+
+@property (nonatomic,strong) IBOutlet UITextView *coordLabel;
 
 
 @end

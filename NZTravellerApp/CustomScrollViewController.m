@@ -10,6 +10,7 @@
 #import "NZDetailViewController.h"
 #import "NZTravellerPOI.h" //DB
 #import "NZTravellerDetails.h" //DB
+#import <QuartzCore/QuartzCore.h>
 
 @interface CustomScrollViewController ()
 
@@ -119,7 +120,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     CGFloat y = nzMap.size.height;
     
     CGSize labelSize = CGSizeMake(x/3, y/60);
-    CGSize starSize = CGSizeMake(x/60, x/60);
+    CGSize starSize = CGSizeMake(x/80, x/80);
     
     CGPoint offset, poiPoint;
     
@@ -133,7 +134,10 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
         
         UILabel *poiLabel = [[UILabel alloc] initWithFrame:(CGRect){.origin = CGPointAdd(poiPoint, offset),.size = labelSize}];
         poiLabel.font = [poiLabel.font fontWithSize:fontsize];
-        poiLabel.text = poi.name;
+        poiLabel.text = [NSString stringWithFormat:@" %@ ", poi.name]; //poi.name;
+        [poiLabel sizeToFit];
+        //poiLabel.backgroundColor = [UIColor colorWithRed:192./255. green:228./255. blue:249./255. alpha:1];
+        //poiLabel.layer.cornerRadius = 5;
         [self.containerView addSubview:poiLabel];
         
         UIButton *poiButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -150,6 +154,8 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+    //self.automaticallyAdjustsScrollViewInsets = NO;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     NSEntityDescription *entity = [NSEntityDescription
@@ -163,6 +169,8 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     nzMap = [UIImage imageNamed:@"NewZealandMapKMM.png"];
     
     CGSize containerSize = nzMap.size;
+    
+    
     
     self.containerView = [[UIView alloc] initWithFrame:(CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=containerSize}];
     [self.scrollView addSubview:self.containerView];
