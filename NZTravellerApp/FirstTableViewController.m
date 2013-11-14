@@ -61,7 +61,7 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    NSArray *tableViewArray = [[NSArray alloc] initWithObjects:@"General Info", @"Map and Points of Interest", nil];
+    NSArray *tableViewArray = [[NSArray alloc] initWithObjects:@"Info", @"Karte und interessante Punkte", nil];
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];

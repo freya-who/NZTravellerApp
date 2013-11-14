@@ -27,6 +27,28 @@
     return self;
 }
 
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    /* return (interfaceOrientation == UIIinterfaceOrientationPortrait || interfaceOrientation == UIIinterfaceOrientationLandscapeLeft || interfaceOrientation == UIIinterfaceOrientationLandscapeRight); */ //GET RID OF ALL THIS CRAP
+    return true; //do this instead, and if this doesn't work, try return YES;
+}
+
+- (void)deviceOrientationDidChangeNotification:(NSNotification*)note
+{
+    [self configureView];
+    //[self centerScrollViewContents];
+}
+
 - (void)centerScrollViewContents {
     CGSize boundsSize = self.scrollView.bounds.size;
     CGRect contentsFrame = self.imageView.frame;
@@ -36,13 +58,13 @@
     } else {
         contentsFrame.origin.x = 0.0f;
     }
-    
+    /*
     if (contentsFrame.size.height < boundsSize.height) {
         contentsFrame.origin.y = (boundsSize.height - contentsFrame.size.height) / 2.0f;
     } else {
         contentsFrame.origin.y = 0.0f;
     }
-    
+    */
     self.imageView.frame = contentsFrame;
 }
 
@@ -85,8 +107,38 @@
     [self centerScrollViewContents];
 }
 
+- (void)configureView
+{
+    UIImage *image = [UIImage imageNamed:_imgName];
+    //self.imageView = [[UIImageView alloc] initWithImage:image];
+    //self.imageView.frame = (CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=image.size};
+    //[self.scrollView addSubview:self.imageView];
+    
+    // 2
+    self.scrollView.contentSize = image.size;
+    
+    CGRect scrollViewFrame = self.scrollView.frame;
+    CGFloat scaleWidth = scrollViewFrame.size.width / self.scrollView.contentSize.width;
+    CGFloat scaleHeight = scrollViewFrame.size.height / self.scrollView.contentSize.height;
+    CGFloat minScale = MIN(scaleWidth, scaleHeight);
+    self.scrollView.minimumZoomScale = minScale;
+    
+    // 5
+    self.scrollView.maximumZoomScale = 1.0f;
+    self.scrollView.zoomScale = minScale;
+
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(deviceOrientationDidChangeNotification:)
+     name:UIDeviceOrientationDidChangeNotification
+     object:nil];
+    
     
     // 1
     UIImage *image = [UIImage imageNamed:_imgName];
@@ -96,6 +148,8 @@
     
     // 2
     self.scrollView.contentSize = image.size;
+    
+    
     
     // 3
     UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewDoubleTapped:)];

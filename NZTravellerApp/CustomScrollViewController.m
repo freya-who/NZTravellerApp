@@ -38,6 +38,8 @@
     return self;
 }
 
+
+
 - (void)pressedStar:(id)sender {
     [self performSegueWithIdentifier:@"detailSegue" sender:sender];
     //perform segue
@@ -54,12 +56,13 @@
         contentsFrame.origin.x = 0.0f;
     }
     
+    /*
     if (contentsFrame.size.height < boundsSize.height) {
         contentsFrame.origin.y = (boundsSize.height - contentsFrame.size.height) / 2.0f;
     } else {
         contentsFrame.origin.y = 0.0f;
     }
-    
+    */
     self.containerView.frame = contentsFrame;
 }
 

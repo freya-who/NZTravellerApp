@@ -47,8 +47,10 @@
 		3A06DCE5182442B5009AE70B /* NewZealandMapKM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */; };
 		3A06DCE718244360009AE70B /* NewZealandMapKMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCE618244360009AE70B /* NewZealandMapKMM.png */; };
 		3A06DCF9182448F1009AE70B /* NewZealandMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */; };
-		3A2DF67918340F5800BD0CDE /* NZCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */; };
 		3A2DF67B1834137000BD0CDE /* starEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF67A1834137000BD0CDE /* starEmpty.png */; };
+		3A2DF68018343B5400BD0CDE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DF67E18343B5400BD0CDE /* Main_iPad.storyboard */; };
+		3A2FE1F718352AA700B32945 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2FE1F618352AA700B32945 /* InfoViewController.m */; };
+		3A2FE1F918352E2800B32945 /* NZCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3A2FE1F818352E2800B32945 /* NZCoreData.sqlite */; };
 		3A55BFBA182AB4C5007D0B40 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55BFB9182AB4C5007D0B40 /* CoreData.framework */; };
 		3A55BFBD182AB714007D0B40 /* NZTravellerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */; };
 		3A55C016182AC97A007D0B40 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55C015182AC97A007D0B40 /* FirstTableViewController.m */; };
@@ -163,8 +165,11 @@
 		3A06DCE4182442B5009AE70B /* NewZealandMapKM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKM.png; sourceTree = "<group>"; };
 		3A06DCE618244360009AE70B /* NewZealandMapKMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewZealandMapKMM.png; sourceTree = "<group>"; };
 		3A06DCF8182448F1009AE70B /* NewZealandMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealandMap.pdf; sourceTree = "<group>"; };
-		3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NZCoreData.sqlite; sourceTree = "<group>"; };
 		3A2DF67A1834137000BD0CDE /* starEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starEmpty.png; sourceTree = "<group>"; };
+		3A2DF67F18343B5400BD0CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3A2FE1F518352AA700B32945 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		3A2FE1F618352AA700B32945 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		3A2FE1F818352E2800B32945 /* NZCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NZCoreData.sqlite; sourceTree = "<group>"; };
 		3A55BFB9182AB4C5007D0B40 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3A55BFBC182AB714007D0B40 /* NZTravellerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NZTravellerApp.xcdatamodel; sourceTree = "<group>"; };
 		3A55C014182AC97A007D0B40 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
@@ -292,8 +297,11 @@
 			children = (
 				3A06DC7E1823FD8D009AE70B /* Images.xcassets */,
 				3A06DC781823FD8D009AE70B /* Main.storyboard */,
-				3A2DF67818340F5800BD0CDE /* NZCoreData.sqlite */,
+				3A2FE1F818352E2800B32945 /* NZCoreData.sqlite */,
+				3A2DF67E18343B5400BD0CDE /* Main_iPad.storyboard */,
 				3A55BFBB182AB714007D0B40 /* NZTravellerApp.xcdatamodeld */,
+				3A2FE1F518352AA700B32945 /* InfoViewController.h */,
+				3A2FE1F618352AA700B32945 /* InfoViewController.m */,
 				3AE73EAF1832A9C500AD06AD /* NZTravellerPOI.h */,
 				3AE73EB01832A9C500AD06AD /* NZTravellerPOI.m */,
 				3AE73EAC1832A9C400AD06AD /* NZTravellerDetails.h */,
@@ -548,7 +556,6 @@
 				3A2DF67B1834137000BD0CDE /* starEmpty.png in Resources */,
 				3A97B5B81832F484002F77CD /* CathedralCove.JPG in Resources */,
 				3A97B5CE1832F484002F77CD /* LakeMarian.jpg in Resources */,
-				3A2DF67918340F5800BD0CDE /* NZCoreData.sqlite in Resources */,
 				3A97B5C41832F484002F77CD /* HaastHighwayPancakeRocks.jpg in Resources */,
 				3A06DCCF182438A9009AE70B /* Icon-Small.png in Resources */,
 				3A97B5D01832F484002F77CD /* MarlboroughSounds.JPG in Resources */,
@@ -561,6 +568,7 @@
 				3A97B5B91832F484002F77CD /* EastCape.JPG in Resources */,
 				3A97B5CA1832F484002F77CD /* Kaikoura.JPG in Resources */,
 				3A97B5B51832F484002F77CD /* CapePalliserLightHouse.JPG in Resources */,
+				3A2FE1F918352E2800B32945 /* NZCoreData.sqlite in Resources */,
 				3A06DCE318244222009AE70B /* NewZealandMapM.png in Resources */,
 				3A97B5B61832F484002F77CD /* CapePalliserSealColony.JPG in Resources */,
 				3A97B5BB1832F484002F77CD /* FranzJosefGlacier.jpg in Resources */,
@@ -590,6 +598,7 @@
 				3A97B5E01832F484002F77CD /* WanakaLakeHawea.jpg in Resources */,
 				3A97B5CB1832F484002F77CD /* KaitokeRegionalPark.JPG in Resources */,
 				3A97B5D91832F484002F77CD /* PrincessBayParkplatz.JPG in Resources */,
+				3A2DF68018343B5400BD0CDE /* Main_iPad.storyboard in Resources */,
 				3A97B5D21832F484002F77CD /* MilfordSound.jpg in Resources */,
 				3A97B5C81832F484002F77CD /* HotWaterBeach.JPG in Resources */,
 				3A97B5C71832F484002F77CD /* HarcourtPark.JPG in Resources */,
@@ -620,6 +629,7 @@
 			files = (
 				3AAE21BF18316B82007C6AB8 /* ImageScrollViewController.m in Sources */,
 				3A06DCA61823FE64009AE70B /* ScrollViewController.m in Sources */,
+				3A2FE1F718352AA700B32945 /* InfoViewController.m in Sources */,
 				3A06DC9D1823FDF0009AE70B /* CustomScrollViewController.m in Sources */,
 				3A06DC771823FD8D009AE70B /* AppDelegate.m in Sources */,
 				3AE73EB11832A9C500AD06AD /* NZTravellerPOI.m in Sources */,
@@ -674,6 +684,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		3A2DF67E18343B5400BD0CDE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2DF67F18343B5400BD0CDE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -713,6 +731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -745,6 +764,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

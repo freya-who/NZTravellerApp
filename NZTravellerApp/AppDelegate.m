@@ -18,6 +18,23 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    /* return (interfaceOrientation == UIIinterfaceOrientationPortrait || interfaceOrientation == UIIinterfaceOrientationLandscapeLeft || interfaceOrientation == UIIinterfaceOrientationLandscapeRight); */ //GET RID OF ALL THIS CRAP
+    return true; //do this instead, and if this doesn't work, try return YES;
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;

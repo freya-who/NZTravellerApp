@@ -35,6 +35,23 @@
     //[self configureView];
 }
 
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    /* return (interfaceOrientation == UIIinterfaceOrientationPortrait || interfaceOrientation == UIIinterfaceOrientationLandscapeLeft || interfaceOrientation == UIIinterfaceOrientationLandscapeRight); */ //GET RID OF ALL THIS CRAP
+    return true; //do this instead, and if this doesn't work, try return YES;
+}
+
+
 - (void)configureView
 {
     // Update the user interface for the detail item.
@@ -42,6 +59,15 @@
     NZTravellerDetails* detail = [nzTravellerDetail objectAtIndex:_detailIndex];
     
     self.detailDescriptionLabel.text = detail.descrText;
+    NSString *deviceType = [UIDevice currentDevice].model;
+    
+    if([deviceType hasPrefix:@"iPhone"])
+    {
+        self.detailDescriptionLabel.font = [UIFont fontWithName:@"arial" size:14];
+    }
+    else {
+        self.detailDescriptionLabel.font = [UIFont fontWithName:@"arial" size:24];
+    }
     //NSRange range = NSMakeRange(0,1);
     //[self.detailDescriptionLabel scrollRangeToVisible:range];
     self.title = poi.name;
