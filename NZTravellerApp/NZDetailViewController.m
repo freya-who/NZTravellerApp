@@ -105,7 +105,7 @@
                 UIButton *newPhoto = [UIButton buttonWithType:UIButtonTypeCustom];
                 [newPhoto setImage:[self.images objectAtIndex:i] forState:UIControlStateNormal];
                 float b = wP/(n*10);
-                float w = (wP - (n-1)*b)/n;
+                float w = MIN((wP - (n-1)*b)/n,hP);
                 float x;
                 if (i==0) {x=0;}
                 else x = i*((wP+b)/n);

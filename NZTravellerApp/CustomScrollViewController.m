@@ -45,6 +45,11 @@
     //perform segue
 }
 
+- (void)deviceOrientationDidChangeNotification:(NSNotification*)note
+    {
+        [self centerScrollViewContents];
+        //[self centerScrollViewContents];
+    }
 
 - (void)centerScrollViewContents {
     CGSize boundsSize = self.scrollView.bounds.size;
@@ -157,6 +162,12 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(deviceOrientationDidChangeNotification:)
+     name:UIDeviceOrientationDidChangeNotification
+     object:nil];
+
 
     //self.automaticallyAdjustsScrollViewInsets = NO;
     
@@ -180,6 +191,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     
     UIImageView *imageView = [[UIImageView alloc] initWithImage:nzMap];
     imageView.center = CGPointMake(nzMap.size.width/2.0f, nzMap.size.height/2.0f);
+    [self centerScrollViewContents];
     [self.containerView addSubview:imageView];
     
     //add buttons and labels to container view
