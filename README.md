@@ -24,4 +24,12 @@ Things to fix:
 
 - rescale buttons during zoom, differently than zoom/rescale level of map, so that buttons are visible when map zoomed out, but get a lot smaller when zoomed in
 
-- when going from POI info back to map, map is at differenz position and zoom level
+- when going from POI info back to map, map is at different position and zoom level
+
+- when clicking on a star while not zoomed in at all before, and then going back to the map, map is completely zoomed in and no zoom is possible. you have to go back to the table view or to a POI info and then back to the map to be able to zoom again
+
+- make first screen not a table view but two nicely designed custom buttons
+
+- make a nice custom background for the POI info pages
+
+- maybe add a switch to switch language from German to English
