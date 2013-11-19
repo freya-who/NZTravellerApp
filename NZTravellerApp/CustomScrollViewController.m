@@ -198,7 +198,7 @@ CGPoint CGPointAdd(CGPoint p1, CGPoint p2)
     [self makeButtons];
     
     
-    //TapRecognizer
+    //TapRecognizer for double tap
     UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewDoubleTapped:)];
     doubleTapRecognizer.numberOfTapsRequired = 2;
     doubleTapRecognizer.numberOfTouchesRequired = 1;
